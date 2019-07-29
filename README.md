@@ -37,7 +37,7 @@ Please feel free to pull requests or open an issue to add papers.
 ### 2019
 |  Title  | Venue  | Remarks | Code |
 |:--------|:--------:|:--------:|:--------:|
-|[Deep Tree Learning for Zero-shot Face Anti-Spoofing](http://cvlab.cse.msu.edu/pdfs/Liu_Stehouwer_Jourabloo_Liu_CVPR2019.pdf)|CVPR|Zero-shot|-|
+|[Deep Tree Learning for Zero-shot Face Anti-Spoofing](http://cvlab.cse.msu.edu/pdfs/Liu_Stehouwer_Jourabloo_Liu_CVPR2019.pdf)|CVPR|ZS|-|
 |[Multi-adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)|CVPR|RGB-DG|-|
 |[Face Anti-Spoofing: Model Matters, So Does Data](https://yuan-gao.net/pdf/CVPR2019%20-%20antispoofing.pdf)|CVPR|RGB-NA|-|
 
