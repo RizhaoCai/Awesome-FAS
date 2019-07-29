@@ -15,11 +15,11 @@ Please feel free to pull requests or open an issue to add papers.
 |[IDIAP Replay Attack](https://www.idiap.ch/dataset/replayattack)|Idiap Research Institute|2012|Replay, Print(2D)|
 |[CASIA FASD](http://www.cbsr.ia.ac.cn/english/FASDB_Agreement/Agreement.pdf)| CASIA CBSR |2012|Replay, Print(2D)|
 
-## Sub-categories
-- * [Common Focus](# Common Focus)
-- * [Domain Generalization](# Domain Generalization)
-- * [Zero/few-shot Learning](# Zero/few-shot Learning)
-- * [Anomaly Detection ](# Anomaly Detection)
+## Contents
+* [Common Focus](#Common Focus)
+* [Domain Generalization](#Domain Generalization)
+* [Zero/few-shot Learning](#Zero/few-shot Learning)
+* [Anomaly Detection ](#Anomaly Detection)
 
 
 
