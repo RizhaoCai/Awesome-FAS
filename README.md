@@ -53,8 +53,7 @@ Please feel free to pull requests or open an issue to add papers.
 ### Anomaly Detection
 |  Title  | Venue | Remarks | Code |
 |:--------|:--------:|:--------:|:--------:|
-|[Deep Anomaly Detection for Generalized Face Anti Spoofing
-](http://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Perez-Cabo_Deep_Anomaly_Detection_for_Generalized_Face_Anti-Spoofing_CVPRW_2019_paper.pdf)|CVPR 2019|RGB|-|
+|[Deep Anomaly Detection for Generalized Face Anti Spoofing](http://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Perez-Cabo_Deep_Anomaly_Detection_for_Generalized_Face_Anti-Spoofing_CVPRW_2019_paper.pdf)|CVPR 2019|RGB|-|
 
 
 
