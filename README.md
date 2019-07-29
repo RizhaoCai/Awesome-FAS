@@ -26,10 +26,12 @@ Please feel free to pull requests or open an issue to add papers.
 ### Method of Face Liveness Detection
 
 |  Method | `NA` |`DA` |  `ZS`   |`AD`| |
+
 |:------------|:--------------:|:----------------------:|:----------:|
 | Explanation | Not Apply special methods | Domain Adaptation | Zero-Shot Learning | Anomaly Detection |
 
 |  Data Process |  `RGB` |  `IR`   |`SL`|`PC`|
+
 |:------------|:--------------:|:----------------------:|:----------:|
 | Explanation | RGB data| Infrared data | Structure light data | Point Cloud data|
 
@@ -37,19 +39,23 @@ Please feel free to pull requests or open an issue to add papers.
 ### 2019
 
 |  Title  | Venue  | Remarks | Code |
+
 |:--------|:--------:|:--------:|:--------:|
+
 |[Deep Tree Learning for Zero-shot Face Anti-Spoofing](http://cvlab.cse.msu.edu/pdfs/Liu_Stehouwer_Jourabloo_Liu_CVPR2019.pdf)|in CVPR|Zero-shot|-|
 |[Multi-adversarial Discriminative Deep Domain Generalization for Face
 Presentation Attack Detection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)|CVPR|RGB-DA|-|
-|[Face Anti-Spoofing: Model Matters, So Does Data](https://yuan-gao.net/pdf/CVPR2019%20-%20antispoofing.pdf)|in CVPR|RGB-NA|-|
+|[Face Anti-Spoofing: Model Matters, So Does Data](https://yuan-gao.net/pdf/CVPR2019%20-%20antispoofing.pdf)|CVPR|RGB-NA|-|
 
 
 
 ### 2018
 |  Title  | Venue  | Type | Code |
+
 |:--------|:--------:|:--------:|:--------:|
+
 |[Face De-Spoofing: Anti-Spoofing via Noise Modeling](https://arxiv.org/abs/1807.09968)|ECCV|RGB-NA|-|
-|[Learning Deep Models for Face Anti-Spoofing: Binary or Auxiliary Supervision](http://cvlab.cse.msu.edu/pdfs/Liu_Jourabloo_Liu_CVPR2018.pdf)|in CVPR|RGB-NA|-|
+|[Learning Deep Models for Face Anti-Spoofing: Binary or Auxiliary Supervision](http://cvlab.cse.msu.edu/pdfs/Liu_Jourabloo_Liu_CVPR2018.pdf)|CVPR|RGB-NA|-|
 |[Learning generalized deep feature representation for face anti-spoofing](https://rose.ntu.edu.sg/Publications/Documents/Face%20Spoofing%20Detection/Learning%20Generalized%20Deep%20Feature%20Representation%20for%20Face%20Anti-Spoofing.pdf)|IEEE TIFS|RGB-DA|-|
 |[Unsupervised domain adaptation for face anti-spoofing](https://ieeexplore.ieee.org/document/8279564)|IEEE TIFS|RGB-DA|-|
 
