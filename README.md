@@ -15,48 +15,52 @@ Please feel free to pull requests or open an issue to add papers.
 |[IDIAP Replay Attack](https://www.idiap.ch/dataset/replayattack)|Idiap Research Institute|2012|Replay, Print(2D)|
 |[CASIA FASD](http://www.cbsr.ia.ac.cn/english/FASDB_Agreement/Agreement.pdf)| CASIA CBSR |2012|Replay, Print(2D)|
 
-## Table of Contents
-
-- [2019 Venues](#2019)
-- [2018 Venues](#2018)
-- [2017 Venues](#2017)
-
-
+## Sub-categories
+- [Common Focus](#Common Focus)
+- [Domain Generalization](#Domain Generalization)
+- [Zero/few-shot Learning](#Zero/few-shot Learning)
+- [Anomaly Detection ](#Anomaly Detection)
 
 
 
-### Method of Face Liveness Detection
 
-|  Sub-categories | `NA` |`DG` |  `ZS`   |`AD`|
-|:------------|:--------------:|:----------------------:|:----------:|:----------:|
-| Explanation | Not Apply special methods | Domain Generazation (Adaptation) | Zero-Shot Learning | Anomaly Detection |
+
+### Abbreviations for remarks
 
 |  Data |  `RGB` |  `IR`   |`SL`|`PC`|
 |:------------|:--------------:|:----------------------:|:----------:|:----------:|
 | Explanation | RGB data| Infrared data | Structure light data | Point Cloud data|
 
-
-### 2019
-|  Title  | Venue  | Remarks | Code |
+### Common Focus
+|  Title  | Venue | Remarks | Code |
 |:--------|:--------:|:--------:|:--------:|
-|[Deep Tree Learning for Zero-shot Face Anti-Spoofing](http://cvlab.cse.msu.edu/pdfs/Liu_Stehouwer_Jourabloo_Liu_CVPR2019.pdf)|CVPR|ZS|-|
-|[Multi-adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)|CVPR|RGB-DG|-|
 |[Face Anti-Spoofing: Model Matters, So Does Data](https://yuan-gao.net/pdf/CVPR2019%20-%20antispoofing.pdf)|CVPR|RGB-NA|-|
+|[Face De-Spoofing: Anti-Spoofing via Noise Modeling](https://arxiv.org/abs/1807.09968)|ECCV 2018|RGB|-|
+|[Learning Deep Models for Face Anti-Spoofing: Binary or Auxiliary Supervision](http://cvlab.cse.msu.edu/pdfs/Liu_Jourabloo_Liu_CVPR2018.pdf)|CVPR 2018|RGB|-|
 
-
-
-### 2018
-|  Title  | Venue  | Type | Code |
+### Domain Generalization
+|  Title  | Venue | Remarks | Code |
 |:--------|:--------:|:--------:|:--------:|
-|[Face De-Spoofing: Anti-Spoofing via Noise Modeling](https://arxiv.org/abs/1807.09968)|ECCV|RGB-NA|-|
-|[Learning Deep Models for Face Anti-Spoofing: Binary or Auxiliary Supervision](http://cvlab.cse.msu.edu/pdfs/Liu_Jourabloo_Liu_CVPR2018.pdf)|CVPR|RGB-NA|-|
-|[Learning generalized deep feature representation for face anti-spoofing](https://rose.ntu.edu.sg/Publications/Documents/Face%20Spoofing%20Detection/Learning%20Generalized%20Deep%20Feature%20Representation%20for%20Face%20Anti-Spoofing.pdf)|IEEE TIFS|RGB-DG|-|
-|[Unsupervised domain adaptation for face anti-spoofing](https://ieeexplore.ieee.org/document/8279564)|IEEE TIFS|RGB-DG|-|
+|[Multi-adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)|CVPR 2019|RGB|-|
+|[Learning generalized deep feature representation for face anti-spoofing](https://rose.ntu.edu.sg/Publications/Documents/Face%20Spoofing%20Detection/Learning%20Generalized%20Deep%20Feature%20Representation%20for%20Face%20Anti-Spoofing.pdf)|IEEE TIFS 2018|RGB|-|
+|[Unsupervised domain adaptation for face anti-spoofing](https://ieeexplore.ieee.org/document/8279564)|IEEE TIFS 2018|RGB|-|
 
-### 2017
-|  Title  | Venue  | Type | Code |
+### Zero/few-shot Learning
+|  Title  | Venue | Remarks | Code |
 |:--------|:--------:|:--------:|:--------:|
-|[Face Anti-Spoofing Using Patch and Depth-Based CNNs](http://cvlab.cse.msu.edu/pdfs/FaceAntiSpoofingUsingPatchandDepthBasedCNNs.pdf)| IEEE IJCB|RGB-NA|-|
+|[Deep Tree Learning for Zero-shot Face Anti-Spoofing](http://cvlab.cse.msu.edu/pdfs/Liu_Stehouwer_Jourabloo_Liu_CVPR2019.pdf)|CVPR 2019|RGB|-|
+
+### Anomaly Detection
+|  Title  | Venue | Remarks | Code |
+|:--------|:--------:|:--------:|:--------:|
+|[Deep Anomaly Detection for Generalized Face Anti Spoofing
+](http://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Perez-Cabo_Deep_Anomaly_Detection_for_Generalized_Face_Anti-Spoofing_CVPRW_2019_paper.pdf)|CVPR 2019|RGB|-|
+
+
+
+
+
+
 
 
 
