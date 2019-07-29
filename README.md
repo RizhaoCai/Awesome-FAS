@@ -37,9 +37,8 @@ Please feel free to pull requests or open an issue to add papers.
 ### 2019
 |  Title  | Venue  | Remarks | Code |
 |:--------|:--------:|:--------:|:--------:|
-|[Deep Tree Learning for Zero-shot Face Anti-Spoofing](http://cvlab.cse.msu.edu/pdfs/Liu_Stehouwer_Jourabloo_Liu_CVPR2019.pdf)|in CVPR|Zero-shot|-|
-|[Multi-adversarial Discriminative Deep Domain Generalization for Face
-Presentation Attack Detection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)|CVPR|RGB-DA|-|
+|[Deep Tree Learning for Zero-shot Face Anti-Spoofing](http://cvlab.cse.msu.edu/pdfs/Liu_Stehouwer_Jourabloo_Liu_CVPR2019.pdf)|CVPR|Zero-shot|-|
+|[Multi-adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)|CVPR|RGB-DA|-|
 |[Face Anti-Spoofing: Model Matters, So Does Data](https://yuan-gao.net/pdf/CVPR2019%20-%20antispoofing.pdf)|CVPR|RGB-NA|-|
 
 
@@ -55,7 +54,7 @@ Presentation Attack Detection](http://openaccess.thecvf.com/content_CVPR_2019/pa
 ### 2017
 |  Title  | Venue  | Type | Code |
 |:--------|:--------:|:--------:|:--------:|
-|[Face Anti-Spoofing Using Patch and Depth-Based CNNs](http://cvlab.cse.msu.edu/pdfs/FaceAntiSpoofingUsingPatchandDepthBasedCNNs.pdf)|in IEEE IJCB|RGB-NA|-|
+|[Face Anti-Spoofing Using Patch and Depth-Based CNNs](http://cvlab.cse.msu.edu/pdfs/FaceAntiSpoofingUsingPatchandDepthBasedCNNs.pdf)| IEEE IJCB|RGB-NA|-|
 
 
 
