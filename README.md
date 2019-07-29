@@ -16,10 +16,10 @@ Please feel free to pull requests or open an issue to add papers.
 |[CASIA FASD](http://www.cbsr.ia.ac.cn/english/FASDB_Agreement/Agreement.pdf)| CASIA CBSR |2012|Replay, Print(2D)|
 
 ## Contents
-* [Common Focus](#Common Focus)
-* [Domain Generalization](#Domain Generalization)
-* [Zero/few-shot Learning](#Zero/few-shot Learning)
-* [Anomaly Detection ](#Anomaly Detection)
+- [Common Focus](#Common-Focus)
+- [Domain Generalization](#Domain-Generalization)
+- [Zero/few-shot Learning](#Zero/few-shot-Learning)
+- [Anomaly Detection ](#Anomaly-Detection)
 
 
 
