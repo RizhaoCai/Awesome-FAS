@@ -27,14 +27,14 @@ Please feel free to pull requests or open an issue to add papers.
 
 ### Abbreviations for remarks
 
-|  Data |  `RGB` |  `IR`   |`SL`|`PC`|
+|  Data type |  `RGB` |  `IR`   |`SL`|`PC`|
 |:------------|:--------------:|:----------------------:|:----------:|:----------:|
 | Explanation | RGB data| Infrared data | Structure light data | Point Cloud data|
 
 ### Common Focus
 |  Title  | Venue | Remarks | Code |
 |:--------|:--------:|:--------:|:--------:|
-|[Face Anti-Spoofing: Model Matters, So Does Data](https://yuan-gao.net/pdf/CVPR2019%20-%20antispoofing.pdf)|CVPR|RGB-NA|-|
+|[Face Anti-Spoofing: Model Matters, So Does Data](https://yuan-gao.net/pdf/CVPR2019%20-%20antispoofing.pdf)|CVPR|RGB|-|
 |[Face De-Spoofing: Anti-Spoofing via Noise Modeling](https://arxiv.org/abs/1807.09968)|ECCV 2018|RGB|-|
 |[Learning Deep Models for Face Anti-Spoofing: Binary or Auxiliary Supervision](http://cvlab.cse.msu.edu/pdfs/Liu_Jourabloo_Liu_CVPR2018.pdf)|CVPR 2018|RGB|-|
 
