@@ -18,8 +18,8 @@ Please feel free to pull requests or open an issue to add papers.
 ## Contents
 - [Common Focus](#Common-Focus)
 - [Domain Generalization](#Domain-Generalization)
-- [Zero/few-shot Learning](#Zero/few-shot-Learning)
-- [Anomaly Detection ](#Anomaly-Detection)
+- [Zero/few-shot Learning or Anomaly Detection](#Zero/few-shot-Learning-or-Anomaly-Detection)
+
 
 
 
