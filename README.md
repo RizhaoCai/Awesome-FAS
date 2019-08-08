@@ -45,15 +45,25 @@ Please feel free to pull requests or open an issue to add papers.
 |[Learning generalized deep feature representation for face anti-spoofing](https://rose.ntu.edu.sg/Publications/Documents/Face%20Spoofing%20Detection/Learning%20Generalized%20Deep%20Feature%20Representation%20for%20Face%20Anti-Spoofing.pdf)|IEEE TIFS 2018|RGB|-|
 |[Unsupervised domain adaptation for face anti-spoofing](https://ieeexplore.ieee.org/document/8279564)|IEEE TIFS 2018|RGB|-|
 
-### Zero/few-shot Learning
+### Zero/few-shot Learning or Anomaly Detection
 |  Title  | Venue | Remarks | Code |
 |:--------|:--------:|:--------:|:--------:|
 |[Deep Tree Learning for Zero-shot Face Anti-Spoofing](http://cvlab.cse.msu.edu/pdfs/Liu_Stehouwer_Jourabloo_Liu_CVPR2019.pdf)|CVPR 2019|RGB|-|
+|[Deep Anomaly Detection for Generalized Face Anti Spoofing](http://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Perez-Cabo_Deep_Anomaly_Detection_for_Generalized_Face_Anti-Spoofing_CVPRW_2019_paper.pdf)|CVPR 2019|RGB|-|
 
-### Anomaly Detection
+
+### System / Mobile Applications
 |  Title  | Venue | Remarks | Code |
 |:--------|:--------:|:--------:|:--------:|
-|[Deep Anomaly Detection for Generalized Face Anti Spoofing](http://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Perez-Cabo_Deep_Anomaly_Detection_for_Generalized_Face_Anti-Spoofing_CVPRW_2019_paper.pdf)|CVPR 2019|RGB|-|
+|[Face Flashing: a Secure Liveness Detection Protocol based on Light Reflections](https://arxiv.org/pdf/1801.01949.pdf)|NDSS 2018|RGB+Flashing|-|
+|[rtCaptcha: A Real-Time CAPTCHA Based Liveness Detection System](https://pdfs.semanticscholar.org/1fb3/99bf4122b5b25ae7784ca73f9b1be6a91cde.pdf)|NDSS 2018|RGB+Captcha|-|
+|[Sensor-assisted facial recognition: an enhanced biometric authentication system for smartphones](http://qurinet.ucdavis.edu/pubs/conf/shaxun-mobisys.pdf)|Mobisys 2014|RGB+Sensor|-|
+
+### Attack
+|  Title  | Venue | Remarks | Code |
+|:--------|:--------:|:--------:|:--------:|
+|[Virtual U: Defeating Face Liveness Detection by Building Virtual Models from Your Public Photos](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_xu.pdf)|USENIX SS 2018|RGB+Flashing|-|
+
 
 
 
