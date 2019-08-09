@@ -21,10 +21,6 @@ Please feel free to pull requests or open an issue to add papers.
 - [Zero/few-shot Learning or Anomaly Detection](#Zero/few-shot-Learning-or-Anomaly-Detection)
 
 
-
-
-
-
 ### Abbreviations for remarks
 
 |  Data type |  `RGB` |  `IR`   |`SL`|`PC`|
