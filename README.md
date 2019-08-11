@@ -28,37 +28,43 @@ Please feel free to pull requests or open an issue to add papers.
 | Explanation | RGB data| Infrared data | Structure light data | Point Cloud data|
 
 ### Common Focus
-|  Title  | Venue | Remarks | Code |
-|:--------|:--------:|:--------:|:--------:|
-|[Face Anti-Spoofing: Model Matters, So Does Data](https://yuan-gao.net/pdf/CVPR2019%20-%20antispoofing.pdf)|CVPR|RGB|-|
-|[Face De-Spoofing: Anti-Spoofing via Noise Modeling](https://arxiv.org/abs/1807.09968)|ECCV 2018|RGB|-|
-|[Learning Deep Models for Face Anti-Spoofing: Binary or Auxiliary Supervision](http://cvlab.cse.msu.edu/pdfs/Liu_Jourabloo_Liu_CVPR2018.pdf)|CVPR 2018|RGB|-|
+|  Title  | Venue | Remarks |
+|:--------|:--------:|:--------:|
+|[Biometric Face Presentation Attack Detection with Multi-Channel Convolutional Neural Network](http://publications.idiap.ch/downloads/papers/2019/George_TIFS_2019.pdf)|IEEE TIFS 2019|RGB|
+|[Attention-Based Two-Stream Convolutional Networks for Face Spoofing Detection](https://ieeexplore.ieee.org/document/8737949)|IEEE TIFS 2019|RGB|
+|[Face Anti-Spoofing: Model Matters, So Does Data](http://www.cbsr.ia.ac.cn/users/jwan/papers/CVPR2019-spoofing.pdf)|CVPR 2019|RGB|
+|[A Dataset and Benchmark for Large-scale Multi-modal Face Anti-spoofing](https://yuan-gao.net/pdf/CVPR2019%20-%20antispoofing.pdf)|CVPR 2019|RGB+IR+Depth|
+|[Face De-Spoofing: Anti-Spoofing via Noise Modeling](https://arxiv.org/abs/1807.09968)|ECCV 2018|RGB,[Code](https://github.com/yaojieliu/ECCV2018-FaceDeSpoofing)|
+|[Learning Deep Models for Face Anti-Spoofing: Binary or Auxiliary Supervision](http://cvlab.cse.msu.edu/pdfs/Liu_Jourabloo_Liu_CVPR2018.pdf)|CVPR 2018|RGB, pseudo Depth+rPPG|
+|[Face Anti-Spoofing Using Patch and Depth-Based CNNs](http://cvlab.cse.msu.edu/pdfs/FaceAntiSpoofingUsingPatchandDepthBasedCNNs.pdf)|IJCB 2017|RGB, pseudo Depth|
+
+
 
 ### Domain Generalization
-|  Title  | Venue | Remarks | Code |
-|:--------|:--------:|:--------:|:--------:|
-|[Multi-adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)|CVPR 2019|RGB|-|
-|[Learning generalized deep feature representation for face anti-spoofing](https://rose.ntu.edu.sg/Publications/Documents/Face%20Spoofing%20Detection/Learning%20Generalized%20Deep%20Feature%20Representation%20for%20Face%20Anti-Spoofing.pdf)|IEEE TIFS 2018|RGB|-|
-|[Unsupervised domain adaptation for face anti-spoofing](https://ieeexplore.ieee.org/document/8279564)|IEEE TIFS 2018|RGB|-|
+|  Title  | Venue | Remarks |
+|:--------|:--------:|:--------:|
+|[Multi-adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)|CVPR 2019|RGB|
+|[Learning generalized deep feature representation for face anti-spoofing](https://rose.ntu.edu.sg/Publications/Documents/Face%20Spoofing%20Detection/Learning%20Generalized%20Deep%20Feature%20Representation%20for%20Face%20Anti-Spoofing.pdf)|IEEE TIFS 2018|RGB|
+|[Unsupervised domain adaptation for face anti-spoofing](https://ieeexplore.ieee.org/document/8279564)|IEEE TIFS 2018|RGB|
 
 ### Zero/few-shot Learning or Anomaly Detection
-|  Title  | Venue | Remarks | Code |
-|:--------|:--------:|:--------:|:--------:|
-|[Deep Tree Learning for Zero-shot Face Anti-Spoofing](http://cvlab.cse.msu.edu/pdfs/Liu_Stehouwer_Jourabloo_Liu_CVPR2019.pdf)|CVPR 2019|RGB|-|
-|[Deep Anomaly Detection for Generalized Face Anti Spoofing](http://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Perez-Cabo_Deep_Anomaly_Detection_for_Generalized_Face_Anti-Spoofing_CVPRW_2019_paper.pdf)|CVPR 2019|RGB|-|
+|  Title  | Venue | Remarks |
+|:--------|:--------:|:--------:|
+|[Deep Tree Learning for Zero-shot Face Anti-Spoofing](http://cvlab.cse.msu.edu/pdfs/Liu_Stehouwer_Jourabloo_Liu_CVPR2019.pdf)|CVPR 2019|RGB|
+|[Deep Anomaly Detection for Generalized Face Anti Spoofing](http://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Perez-Cabo_Deep_Anomaly_Detection_for_Generalized_Face_Anti-Spoofing_CVPRW_2019_paper.pdf)|CVPR 2019|RGB|
 
 
 ### System / Mobile Applications
-|  Title  | Venue | Remarks | Code |
-|:--------|:--------:|:--------:|:--------:|
-|[Face Flashing: a Secure Liveness Detection Protocol based on Light Reflections](https://arxiv.org/pdf/1801.01949.pdf)|NDSS 2018|RGB+Flashing|-|
-|[rtCaptcha: A Real-Time CAPTCHA Based Liveness Detection System](https://pdfs.semanticscholar.org/1fb3/99bf4122b5b25ae7784ca73f9b1be6a91cde.pdf)|NDSS 2018|RGB+Captcha|-|
-|[Sensor-assisted facial recognition: an enhanced biometric authentication system for smartphones](http://qurinet.ucdavis.edu/pubs/conf/shaxun-mobisys.pdf)|Mobisys 2014|RGB+Sensor|-|
+|  Title  | Venue | Remarks |
+|:--------|:--------:|:--------:|
+|[Face Flashing: a Secure Liveness Detection Protocol based on Light Reflections](https://arxiv.org/pdf/1801.01949.pdf)|NDSS 2018|RGB+Flashing|
+|[rtCaptcha: A Real-Time CAPTCHA Based Liveness Detection System](https://pdfs.semanticscholar.org/1fb3/99bf4122b5b25ae7784ca73f9b1be6a91cde.pdf)|NDSS 2018|RGB+Captcha|
+|[Sensor-assisted facial recognition: an enhanced biometric authentication system for smartphones](http://qurinet.ucdavis.edu/pubs/conf/shaxun-mobisys.pdf)|Mobisys 2014|RGB+Sensor|
 
 ### Attack
-|  Title  | Venue | Remarks | Code |
-|:--------|:--------:|:--------:|:--------:|
-|[Virtual U: Defeating Face Liveness Detection by Building Virtual Models from Your Public Photos](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_xu.pdf)|USENIX SS 2018|RGB+Flashing|-|
+|  Title  | Venue | Remarks |
+|:--------|:--------:|:--------:|
+|[Virtual U: Defeating Face Liveness Detection by Building Virtual Models from Your Public Photos](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_xu.pdf)|USENIX SS 2018|VR tech for spoofing|
 
 
 
