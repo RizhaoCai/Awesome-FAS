@@ -17,7 +17,8 @@ Please feel free to pull requests or open an issue to add papers.
 |[CASIA FASD](http://www.cbsr.ia.ac.cn/english/FASDB_Agreement/Agreement.pdf)| CASIA CBSR |2012|Replay, Print(2D)|
 
 ## Contents
-- [Common Focus](#Common-Focus)
+- [Common CNN-Based Methods](#Common-CNN-Based-Methods)
+- [### Traditional Methods](#Traditional-Methods)
 - [Domain Generalization](#Domain-Generalization)
 - [Zero/few-shot Learning or Anomaly Detection](#Zero/few-shot-Learning-or-Anomaly-Detection)
 
@@ -28,7 +29,7 @@ Please feel free to pull requests or open an issue to add papers.
 |:------------|:--------------:|:----------------------:|:----------:|:----------:|
 | Explanation | RGB data| Infrared data | Structure light data | Point Cloud data|
 
-### Common Focus
+### Common CNN-Based Method
 |  Title  | Venue | Remarks |
 |:--------|:--------:|:--------:|
 |[Biometric Face Presentation Attack Detection with Multi-Channel Convolutional Neural Network](http://publications.idiap.ch/downloads/papers/2019/George_TIFS_2019.pdf)|IEEE TIFS 2019|RGB|
@@ -39,6 +40,11 @@ Please feel free to pull requests or open an issue to add papers.
 |[Learning Deep Models for Face Anti-Spoofing: Binary or Auxiliary Supervision](http://cvlab.cse.msu.edu/pdfs/Liu_Jourabloo_Liu_CVPR2018.pdf)|CVPR 2018|RGB, pseudo Depth+rPPG|
 |[Face Anti-Spoofing Using Patch and Depth-Based CNNs](http://cvlab.cse.msu.edu/pdfs/FaceAntiSpoofingUsingPatchandDepthBasedCNNs.pdf)|IJCB 2017|RGB, pseudo Depth|
 
+### Traditional Methods
+|[Face Spoofing Detection Using Colour Texture Analysis](https://www.researchgate.net/publication/301571761_Face_Spoofing_Detection_Using_Colour_Texture_Analysis)|IEEE TIFS 2016|RGB, Color LBP|
+|[Face Spoofing Detection Through Visual Codebooks of Spectral Temporal Cubes](https://www.researchgate.net/publication/281054869_Face_Spoofing_Detection_Through_Visual_Codebooks_of_Spectral_Temporal_Cubes)|IEEE TIP 2015|RGB|
+|[Face Spoof Detection with Image Distortion Analysis](http://vipl.ict.ac.cn/uploadfile/upload/2017020711092984.pdf)|IEEE TIFS 2015|RGB|
+|[Face spoofing detection from single images using texture and local shape analysis](https://ieeexplore.ieee.org/document/6117510)|IJCB 2011|RGB, LBP|
 
 
 ### Domain Generalization
@@ -47,6 +53,8 @@ Please feel free to pull requests or open an issue to add papers.
 |[Multi-adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)|CVPR 2019|RGB|
 |[Learning generalized deep feature representation for face anti-spoofing](https://rose.ntu.edu.sg/Publications/Documents/Face%20Spoofing%20Detection/Learning%20Generalized%20Deep%20Feature%20Representation%20for%20Face%20Anti-Spoofing.pdf)|IEEE TIFS 2018|RGB|
 |[Unsupervised domain adaptation for face anti-spoofing](https://ieeexplore.ieee.org/document/8279564)|IEEE TIFS 2018|RGB|
+|[Person-Specific Face Antispoofing With Subject Domain Adaptation](https://ieeexplore.ieee.org/document/7041231)|IEEE TIFS 2015|RGB, Person-specific|
+
 
 ### Zero/few-shot Learning or Anomaly Detection
 |  Title  | Venue | Remarks |
@@ -60,6 +68,7 @@ Please feel free to pull requests or open an issue to add papers.
 |:--------|:--------:|:--------:|
 |[Face Flashing: a Secure Liveness Detection Protocol based on Light Reflections](https://arxiv.org/pdf/1801.01949.pdf)|NDSS 2018|RGB+Flashing|
 |[rtCaptcha: A Real-Time CAPTCHA Based Liveness Detection System](https://pdfs.semanticscholar.org/1fb3/99bf4122b5b25ae7784ca73f9b1be6a91cde.pdf)|NDSS 2018|RGB+Captcha|
+|[Face Liveness Detection Using a Flash Against 2D Spoofing Attack](http://www.hebmlc.org/UploadFiles/20171014235219706.pdf)|IEEE TIFS 2017|RGB+Flashing|
 |[Sensor-assisted facial recognition: an enhanced biometric authentication system for smartphones](http://qurinet.ucdavis.edu/pubs/conf/shaxun-mobisys.pdf)|Mobisys 2014|RGB+Sensor|
 
 ### Attack
