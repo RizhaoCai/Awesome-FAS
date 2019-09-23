@@ -18,7 +18,7 @@ Please feel free to pull requests or open an issue to add papers.
 
 ## Contents
 - [Common CNN-Based Methods](#Common-CNN-Based-Methods)
-- [### Traditional Methods](#Traditional-Methods)
+- [Traditional Methods](#Traditional-Methods)
 - [Domain Generalization](#Domain-Generalization)
 - [Zero/few-shot Learning or Anomaly Detection](#Zero/few-shot-Learning-or-Anomaly-Detection)
 
@@ -62,13 +62,15 @@ Please feel free to pull requests or open an issue to add papers.
 |  Title  | Venue | Remarks |
 |:--------|:--------:|:--------:|
 |[Deep Tree Learning for Zero-shot Face Anti-Spoofing](http://cvlab.cse.msu.edu/pdfs/Liu_Stehouwer_Jourabloo_Liu_CVPR2019.pdf)|CVPR 2019|RGB|
-|[Deep Anomaly Detection for Generalized Face Anti Spoofing](http://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Perez-Cabo_Deep_Anomaly_Detection_for_Generalized_Face_Anti-Spoofing_CVPRW_2019_paper.pdf)|CVPR 2019|RGB|
+|[Deep Anomaly Detection for Generalized Face Anti Spoofing](http://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Perez-Cabo_Deep_Anomaly_Detection_for_Generalized_Face_Anti-Spoofing_CVPRW_2019_paper.pdf)|CVPRW 2019|RGB|
 
 
 ### System / Mobile Applications
 |  Title  | Venue | Remarks |
 |:--------|:--------:|:--------:|
 |[Face Flashing: a Secure Liveness Detection Protocol based on Light Reflections](https://arxiv.org/pdf/1801.01949.pdf)|NDSS 2018|RGB+Flashing|
+|[Light Field-Based Face Presentation Attack Detection: Reviewing, Benchmarking and One Step Further](https://ieeexplore.ieee.org/document/8271987)|TIFS 2018|Light Filed-Based|
+
 |[rtCaptcha: A Real-Time CAPTCHA Based Liveness Detection System](https://pdfs.semanticscholar.org/1fb3/99bf4122b5b25ae7784ca73f9b1be6a91cde.pdf)|NDSS 2018|RGB+Captcha|
 |[Face Liveness Detection Using a Flash Against 2D Spoofing Attack](http://www.hebmlc.org/UploadFiles/20171014235219706.pdf)|IEEE TIFS 2017|RGB+Flashing|
 |[Your face your heart: Secure mobile face authentication with photoplethysmograms](https://web.asu.edu/sites/default/files/cnsg/files/c38.pdf)|INFORCOM 2017|RGB+rPPG|
