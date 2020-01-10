@@ -17,25 +17,28 @@ Please feel free to pull requests or open an issue to add papers.
 |[CASIA FASD](http://www.cbsr.ia.ac.cn/english/FASDB_Agreement/Agreement.pdf)| CASIA CBSR |2012|Replay, Print(2D)|
 
 ## Contents
-- [Common CNN-Based Methods](#Common-CNN-Based-Methods)
+- [Deep-Learning-Based Methods](#Common-CNN-Based-Methods)
 - [Traditional Methods](#Traditional-Methods)
 - [Domain Generalization](#Domain-Generalization)
 - [Zero/few-shot Learning or Anomaly Detection](#Zero/few-shot-Learning-or-Anomaly-Detection)
 
 
-### Abbreviations for remarks
+### Abbreviations for Remarks
 
 |  Data type |  `RGB` |  `IR`   |`SL`|`PC`|
 |:------------|:--------------:|:----------------------:|:----------:|:----------:|
 | Explanation | RGB data| Infrared data | Structure light data | Point Cloud data|
 
-### Common CNN-Based Method
+### Deep-Learning-Based Methods
 |  Title  | Venue | Remarks |
 |:--------|:--------:|:--------:|
+|[Regularized Fine-grained Meta Face Anti-spoofing](https://arxiv.org/abs/1911.10771)|AAAI 2019|RGB|
+|[Attention-Based Two-Stream Convolutional Networks for Face Spoofing Detection](https://ieeexplore.ieee.org/document/8737949)|IEEE TIFS 2019|RGB|
 |[Biometric Face Presentation Attack Detection with Multi-Channel Convolutional Neural Network](http://publications.idiap.ch/downloads/papers/2019/George_TIFS_2019.pdf)|IEEE TIFS 2019|RGB|
 |[Attention-Based Two-Stream Convolutional Networks for Face Spoofing Detection](https://ieeexplore.ieee.org/document/8737949)|IEEE TIFS 2019|RGB|
 |[Face Anti-Spoofing: Model Matters, So Does Data](http://www.cbsr.ia.ac.cn/users/jwan/papers/CVPR2019-spoofing.pdf)|CVPR 2019|RGB|
 |[A Dataset and Benchmark for Large-scale Multi-modal Face Anti-spoofing](https://yuan-gao.net/pdf/CVPR2019%20-%20antispoofing.pdf)|CVPR 2019|RGB+IR+Depth|
+|[Exploiting temporal and depth information for multi-frame face anti-spoofing](https://arxiv.org/abs/1811.05118)|ArXiv 2018|Multi-frame|
 |[Face De-Spoofing: Anti-Spoofing via Noise Modeling](https://arxiv.org/abs/1807.09968)|ECCV 2018|RGB,[Code](https://github.com/yaojieliu/ECCV2018-FaceDeSpoofing)|
 |[Learning Deep Models for Face Anti-Spoofing: Binary or Auxiliary Supervision](http://cvlab.cse.msu.edu/pdfs/Liu_Jourabloo_Liu_CVPR2018.pdf)|CVPR 2018|RGB, pseudo Depth+rPPG|
 |[Face Anti-Spoofing Using Patch and Depth-Based CNNs](http://cvlab.cse.msu.edu/pdfs/FaceAntiSpoofingUsingPatchandDepthBasedCNNs.pdf)|IJCB 2017|RGB, pseudo Depth|
@@ -49,9 +52,10 @@ Please feel free to pull requests or open an issue to add papers.
 |[Face spoofing detection from single images using texture and local shape analysis](https://ieeexplore.ieee.org/document/6117510)|IJCB 2011|RGB, LBP|
 
 
-### Domain Generalization
+### Domain Generalization/Adaptation
 |  Title  | Venue | Remarks |
 |:--------|:--------:|:--------:|
+|[DomainAgnosticFeatureLearningfor ImageandVideoBasedFaceAnti-spooﬁng](https://arxiv.org/pdf/1912.07124.pdf)|ArXiv 2019|RGB|
 |[Multi-adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)|CVPR 2019|RGB|
 |[Learning generalized deep feature representation for face anti-spoofing](https://rose.ntu.edu.sg/Publications/Documents/Face%20Spoofing%20Detection/Learning%20Generalized%20Deep%20Feature%20Representation%20for%20Face%20Anti-Spoofing.pdf)|IEEE TIFS 2018|RGB|
 |[Unsupervised domain adaptation for face anti-spoofing](https://ieeexplore.ieee.org/document/8279564)|IEEE TIFS 2018|RGB|
