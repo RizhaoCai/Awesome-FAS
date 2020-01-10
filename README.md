@@ -9,7 +9,7 @@ Please feel free to pull requests or open an issue to add papers.
 |  Name  | Publisher | Release year | Attack | 
 |:--------|:--------:|:--------:|:--------:|
 |[CASIA SURF](https://www.researchgate.net/publication/329388462_CASIA-SURF_A_Dataset_and_Benchmark_for_Large-scale_Multi-modal_Face_Anti-spoofing)|CASIA CBSR|2019|Replay (2D, IR data)|
-|[ROSE-YOUTU](http://rose1.ntu.edu.sg/datasets/faceLivenessDetection.asp)|ROSE lLab NTU, Singapore & YOUTU Lab, Tencent |2018|Replay, Print(2D), Paper Mask|
+|[ROSE-YOUTU](http://rose1.ntu.edu.sg/datasets/faceLivenessDetection.asp)|ROSE Lab NTU, Singapore & YOUTU Lab, Tencent |2018|Replay, Print(2D), Paper Mask|
 |[OULU-NPU](https://sites.google.com/site/oulunpudatabase/)| OULU University, Finland | 2018|Replay, Print(2D)|
 |[SiW (Spoofing in the Wild)](http://cvlab.cse.msu.edu/spoof-in-the-wild-siw-face-anti-spoofing-database.html)| Michigan State University| 2018 |2D: Replay, Print|
 |[HKBU-MARs](http://rds.comp.hkbu.edu.hk/mars/)|HKBU|2018|3D MASK|
