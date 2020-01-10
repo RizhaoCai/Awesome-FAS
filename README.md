@@ -33,7 +33,7 @@ Please feel free to pull requests or open an issue to add papers.
 ### Deep-Learning-Based Methods
 |  Title  | Venue | Remarks |
 |:--------|:--------:|:--------:|
-|[Regularized Fine-grained Meta Face Anti-spoofing](https://arxiv.org/abs/1911.10771)|AAAI 2019|RGB|
+|[Regularized Fine-grained Meta Face Anti-spoofing](https://arxiv.org/abs/1911.10771)|AAAI 2020|RGB, [Code](https://github.com/rshaojimmy/AAAI2020-RFMetaFAS)|
 |[Attention-Based Two-Stream Convolutional Networks for Face Spoofing Detection](https://ieeexplore.ieee.org/document/8737949)|IEEE TIFS 2019|RGB|
 |[Biometric Face Presentation Attack Detection with Multi-Channel Convolutional Neural Network](http://publications.idiap.ch/downloads/papers/2019/George_TIFS_2019.pdf)|IEEE TIFS 2019|RGB|
 |[Attention-Based Two-Stream Convolutional Networks for Face Spoofing Detection](https://ieeexplore.ieee.org/document/8737949)|IEEE TIFS 2019|RGB|
