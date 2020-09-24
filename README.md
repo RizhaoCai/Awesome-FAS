@@ -5,6 +5,10 @@ A curated list of Face Authentication Security (including face anti-spoofing/fac
 
 Please feel free to pull requests or open an issue to add papers.
 
+## Update
+2020-09-24 A new paper appears: [DRL-FAS: A Novel Framework Based on Deep Reinforcement Learning for Face Anti-Spoofing](https://arxiv.org/pdf/2009.07529.pdf) (accepted by TIFS)  
+2020-09-24 A new paper added: [FaceRevelio: A Face Liveness Detection System for Smartphones with a Single Front Camera](https://habiba-farrukh.github.io/files/FaceRevelio.pdf) (Mobicom 2020)
+
 ## Databases
 |  Name  | Publisher | Release year | Attack | Modal|
 |:--------|:--------:|:--------:|:--------:|:--------:|
@@ -81,6 +85,8 @@ Please feel free to pull requests or open an issue to add papers.
 ### System / Mobile Applications
 |  Title  | Venue | Remarks |
 |:--------|:--------:|:--------:|
+|[FaceRevelio: A Face Liveness Detection System for Smartphones with a Single Front Camera](https://habiba-farrukh.github.io/files/FaceRevelio.pdf)|Mobicom 2020|RGB+Flashing|
+|[EchoPrint: Two-factor Authentication using Acoustics and Vision on Smartphones](https://www.researchgate.net/publication/328325417_EchoPrint_Two-factor_Authentication_using_Acoustics_and_Vision_on_Smartphones)|Mobicom 2018|Acoustic+Vision|
 |[Face Flashing: a Secure Liveness Detection Protocol based on Light Reflections](https://arxiv.org/pdf/1801.01949.pdf)|NDSS 2018|RGB+Flashing|
 |[Light Field-Based Face Presentation Attack Detection: Reviewing, Benchmarking and One Step Further](https://ieeexplore.ieee.org/document/8271987)|IEEE TIFS 2018|Light Filed-Based|
 |[rtCaptcha: A Real-Time CAPTCHA Based Liveness Detection System](https://pdfs.semanticscholar.org/1fb3/99bf4122b5b25ae7784ca73f9b1be6a91cde.pdf)|NDSS 2018|RGB, Captcha|
