@@ -2,7 +2,7 @@
 
  **Reesults are sorted by ACER**
  
-| Protocol 1 | APCER | BPCER | ACER |
+| Protocol 1 | APCER (%)| BPCER (%) | ACER (%) |
 |------------|:-------:|:-------:|:------:|
 | DRL-FAS   | 5.4 | 4.0  | 4.7 |
 | Auxiliary  | 1.6   | 1.6   | 1.6  |
@@ -19,7 +19,7 @@
 
 
 
-| Protocol 2 | APCER | BPCER | ACER |
+| Protocol 2 | APCER (%) | BPCER (%) | ACER (%) |
 |------------|:-------:|:-------|:------:|
 | DeSpoofing | 4.2   | 4.4   | 4.3  |
 | Auxiliary  | 2.7  | 2.7   | 2.7  |
@@ -39,7 +39,7 @@
 
 
 
-| Protocol 3 | APCER    | BPCER    | ACER     |
+| Protocol 3 | APCER(%) | BPCER (%)| ACER (%)    |
 |------------|:----------:|:----------:|:----------:|
 | DeSpoofing | 4.0±1.8 | 3.8±1.2 | 3.6±1.6 |
 | DRL-FAS  | 4.6±3.6 | 1.3±1.8  | 3.0±1.5 |
@@ -60,7 +60,7 @@
 
 
 
-| Protocol 4 | APCER    | BPCER     | ACER     |
+| Protocol 4 | APCER (%)    | BPCER (%)    | ACER (%)     |
 |------------|:----------:|:-----------:|:----------:|
 | Auxiliary  | 9.3±5.6 | 10.4±6.0 | 9.5±6.0 |
 | STASN   | 6.7±10.6 | 8.3±8.4  | 7.5±4.7 |
