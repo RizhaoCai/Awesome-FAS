@@ -24,6 +24,7 @@ Please feel free to pull requests or open an issue to add papers.
 |:--------|:--------:|:--------:|:--------:|:--------:|
 |[CASIA-SURF 3D Mask](http://www.cbsr.ia.ac.cn/users/jwan/database/3DMask.pdf)|CASIA CBSR & SURF Co.|2020|3D Mask|RGB|
 |[CelebA-Spoof](https://github.com/Davidzhangyuanhan/CelebA-Spoof)|CUHK MMLab|2020|2D Attack (Print, Replay)|RGB, Derived from CelbeA dataset|
+|[CASIA-SURF CeFA]()|CASIA CBSR & SURF Co.|2019|2D and 3D attacks| RGB, Depth, Infrared (IR)|
 |[WMCA](https://www.idiap.ch/dataset/wmca)|Idiap Research Institute|2019|2D (Print, Replay) and 3D (Rigid Mask, Flexible Mask, Paper Mask) attacks|RGB, depth, infrared and thermal|
 |[CASIA-SURF](https://www.researchgate.net/publication/329388462_CASIA-SURF_A_Dataset_and_Benchmark_for_Large-scale_Multi-modal_Face_Anti-spoofing)|CASIA CBSR & SURF Co.|2019|2D Attack (Print)|RGB, Depth, Infrared (IR)|
 |[CSMAD](https://www.idiap.ch/dataset/csmad)|Idiap Research Institute|2018|Custom Silicone Mask Attack|RGB, near-infrared (NIR), Thermal from long-wave infrared (LWIR), |
@@ -32,7 +33,7 @@ Please feel free to pull requests or open an issue to add papers.
 |[SiW (Spoofing in the Wild)](http://cvlab.cse.msu.edu/spoof-in-the-wild-siw-face-anti-spoofing-database.html)| Michigan State University| 2018 |2D (Replay, Print)|RGB|
 |[HKBU-MARs](http://rds.comp.hkbu.edu.hk/mars/)|HKBU|2018|3D MASK|RGB|
 |[OULU-NPU](https://sites.google.com/site/oulunpudatabase/)| OULU University, Finland & NPU Co.| 2017 |2D Attack (Replay, Print)|RGB|
-|[Multispectral-Spoof Dataset](https://www.idiap.ch/dataset/msspoof)|Idiap Research Institute|2015|2D Attack (Print)|RGB, Near-Infrared, Depth|
+|[Multispectral-Spoof Dataset](https://www.idiap.ch/dataset/msspoof)|Idiap Research Institute|2015|2D Attack (Print)|RGB, Near-Infrared|
 |[IDIAP 3D Mask Attack Dataset](https://www.idiap.ch/dataset/3dmad)|Idiap Research Institute|2013|3D Mask|RGB, Depth|
 |[IDIAP Replay Attack](https://www.idiap.ch/dataset/replayattack)|Idiap Research Institute|2012|2D Attack (Replay, Print)|RGB|
 |[CASIA FASD](http://www.cbsr.ia.ac.cn/english/FASDB_Agreement/Agreement.pdf)| CASIA CBSR |2012|2D Attack (Replay, Print)|RGB|
