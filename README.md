@@ -42,9 +42,10 @@ Please feel free to pull requests or open an issue to add papers.
 
 
 ## Deep-Learning-Based Methods
-|  Title  | Venue | Remarks |
+|  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
-|[NAS-FAS: Static-Dynamic Central Difference Network Search for Face Anti-Spoofing](https://arxiv.org/abs/2011.02062)|IEEE PAMI 2020|NAS|
+|[Camera Invariant Feature Learning for Generalized Face Anti-spoofing](https://arxiv.org/pdf/2101.10075.pdf)|IEEE T-IFS 2020| - |
+|[NAS-FAS: Static-Dynamic Central Difference Network Search for Face Anti-Spoofing](https://arxiv.org/abs/2011.02062)|IEEE T-PAMI 2020|NAS|
 |[3DPC-Net: 3D Point Cloud Network for Face Anti-spoofing](http://www.cbsr.ia.ac.cn/users/jwan/papers/IJB2020-3DPCNet.pdf)|IJCB 2020|Pseudo Point Cloud|
 |[DRL-FAS: A Novel Framework Based on Deep Reinforcement Learning for Face Anti-Spoofing](https://arxiv.org/pdf/2009.07529.pdf)|IEEE TIFS 2020|Reinforcement learning|
 |[Face spoofing detection based on local ternary label supervision in fully convolutional networks](https://ieeexplore.ieee.org/document/9056824)|IEEE TIFS 2020|Using a map of Ones is the same as a depth map!|
@@ -66,7 +67,7 @@ Please feel free to pull requests or open an issue to add papers.
 |[Face Anti-Spoofing Using Patch and Depth-Based CNNs](http://cvlab.cse.msu.edu/pdfs/FaceAntiSpoofingUsingPatchandDepthBasedCNNs.pdf)|IJCB 2017|RGB, 2D Attack, pseudo depth|
 
 ## Traditional Methods
-|  Title  | Venue | Remarks|
+|  Title  | Venue | Note|
 |:--------|:--------:|:--------:|
 |[Face Spoofing Detection Using Colour Texture Analysis](https://www.researchgate.net/publication/301571761_Face_Spoofing_Detection_Using_Colour_Texture_Analysis)|IEEE TIFS 2016|RGB, 2D Attack, Color LBP|
 |[Spoofing Face Recognition With 3D Masks](https://www.researchgate.net/publication/262605045_Spoofing_Face_Recognition_With_3D_Masks)|IEEE TIFS 2014|3D Mask|
@@ -76,7 +77,7 @@ Please feel free to pull requests or open an issue to add papers.
 
 
 ## Domain Generalization/Adaptation
-|  Title  | Venue | Remarks |
+|  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
 |[Unsupervised Adversarial Domain Adaptation for Cross-Domain Face Presentation Attack Detection](https://www.researchgate.net/publication/342185474_Unsupervised_Adversarial_Domain_Adaptation_for_Cross-Domain_Face_Presentation_Attack_Detection))|IEEE T-IFS 2020|Domain adaptation|
 |[Face Anti-Spoofing with Deep Neural Network Distillation](https://www.researchgate.net/publication/342115009_Face_Anti-Spoofing_with_Deep_Neural_Network_Distillation)|IEEE Journal of Selected Topics in Signal Processing 2020|Domain knowledge distillation|
@@ -90,7 +91,7 @@ Please feel free to pull requests or open an issue to add papers.
 
 
 ## Zero/few-shot Learning or Anomaly Detection
-|  Title  | Venue | Remarks |
+|  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
 |[Learning Generalized Spoof Cues for Face Anti-spoofing](https://arxiv.org/abs/2005.03922)|ArXiv 2020| RGB, 2D Attack, [Code](https://github.com/vis-var/lgsc-for-fas)|
 |[Learning Meta Model for Zero- and Few-shot Face Anti-spoofing](https://arxiv.org/abs/1904.12490)|AAAI 2020|RGB, 2D Presentation Attack, Meta Learning|
@@ -99,7 +100,7 @@ Please feel free to pull requests or open an issue to add papers.
 
 
 ## System / Mobile Applications
-|  Title  | Venue | Remarks |
+|  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
 |[FaceRevelio: A Face Liveness Detection System for Smartphones with a Single Front Camera](https://habiba-farrukh.github.io/files/FaceRevelio.pdf)|Mobicom 2020|RGB+Flashing|
 |[EchoPrint: Two-factor Authentication using Acoustics and Vision on Smartphones](https://www.researchgate.net/publication/328325417_EchoPrint_Two-factor_Authentication_using_Acoustics_and_Vision_on_Smartphones)|Mobicom 2018|Acoustic+Vision|
@@ -113,7 +114,7 @@ Please feel free to pull requests or open an issue to add papers.
 
 
 ## Attack
-|  Title  | Venue | Remarks |
+|  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
 |[Light Can Hack Your Face! Black-box Backdoor Attack on Face Recognition Systems](https://arxiv.org/abs/2009.06996)|ArXiv 2020|Face Recognition Attack|
 |[Virtual U: Defeating Face Liveness Detection by Building Virtual Models from Your Public Photos](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_xu.pdf)|USENIX SS 2018|VR tech for spoofing|
