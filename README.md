@@ -22,6 +22,7 @@ Please feel free to pull requests or open an issue to add papers.
 ## Databases
 |  Name  | Publisher | Release year | Attack | Modality|
 |:--------|:--------:|:--------:|:--------:|:--------:|
+|[Ambient-Flash](https://ieeexplore.ieee.org/document/9286821)|CSIC|2021|2D attacks|RGB, additional light flashing|
 |[CASIA-SURF 3D Mask](http://www.cbsr.ia.ac.cn/users/jwan/database/3DMask.pdf)|CASIA CBSR & SURF Co.|2020|3D Mask|RGB|
 |[CelebA-Spoof](https://github.com/Davidzhangyuanhan/CelebA-Spoof)|CUHK MMLab|2020|2D Attack (Print, Replay)|RGB, Derived from CelbeA dataset|
 |[CASIA-SURF CeFA](https://arxiv.org/abs/2003.05136)|CASIA CBSR & SURF Co.|2019|2D and 3D attacks| RGB, Depth, Infrared (IR)|
