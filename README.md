@@ -45,6 +45,7 @@ Please feel free to pull requests or open an issue to add papers.
 ## Deep-Learning-Based Methods
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
+|[Face Anti-Spoofing via Adversarial Cross-Modality Translation](http://www.cbsr.ia.ac.cn/users/jwan/papers/TIFS2021-spoof.pdf)|T-IFS 2021| - |
 |[Cross Modal Focal Loss for RGBD Face Anti-Spoofing](https://arxiv.org/abs/2103.00948#:~:text=Automatic%20methods%20for%20detecting%20presentation,in%20generalizing%20to%20unseen%20attacks.)|CVPR 2021| - |
 |[Rethinking Shape From Shading for Spoofing Detection](https://ieeexplore.ieee.org/document/9286821)|T-IP 2020|-|
 |[Camera Invariant Feature Learning for Generalized Face Anti-spoofing](https://arxiv.org/pdf/2101.10075.pdf)|IEEE T-IFS 2020| - |
