@@ -49,11 +49,14 @@ Please feel free to pull requests or open an issue to add papers.
 |:--------|:--------:|:--------:|
 |[Face Anti-Spoofing via Adversarial Cross-Modality Translation](http://www.cbsr.ia.ac.cn/users/jwan/papers/TIFS2021-spoof.pdf)|T-IFS 2021| Multi-modality |
 |[Cross Modal Focal Loss for RGBD Face Anti-Spoofing](https://arxiv.org/abs/2103.00948#:~:text=Automatic%20methods%20for%20detecting%20presentation,in%20generalizing%20to%20unseen%20attacks.)|CVPR 2021| Multi-modality |
-|[Data Fusion based Two-stage Cascade Framework for Multi-Modality Face Anti-Spoofing](https://arxiv.org/abs/2103.00948#:~:text=Automatic%20methods%20for%20detecting%20presentation,in%20generalizing%20to%20unseen%20attacks.)|T-DSC[J] 2021| ]T-DSC |
-
+|[Data Fusion based Two-stage Cascade Framework for Multi-Modality Face Anti-Spoofing](https://arxiv.org/abs/2103.00948#:~:text=Automatic%20methods%20for%20detecting%20presentation,in%20generalizing%20to%20unseen%20attacks.)|T-DSC 2021| Multi-modality  |
+|[Improved Detection of Face Presentation Attacks Using Image Decomposition](https://arxiv.org/pdf/2103.12201.pdf)| ArXiv 2021| Albedo  |
+|[Contrastive Context-Aware Learning for 3D High-Fidelity Mask Face Presentation Attack Detection](https://arxiv.org/abs/2104.06148)|ArXiv 2021|CASIA-SURF 3DHiFi Dataset |
+|[TransRPPG: Remote Photoplethysmography Transformer for 3D Mask Face Presentation Attack Detection](https://arxiv.org/abs/2104.07419)|ArXiv 2021|rPPG |
 ## Year 2020
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
+|[Revisiting Pixel-Wise Supervision for Face Anti-Spoofing](https://www.researchgate.net/publication/346303022_Revisiting_Pixel-Wise_Supervision_for_Face_Anti-Spoofing)|T-BIOM 2020|-|
 |[Rethinking Shape From Shading for Spoofing Detection](https://ieeexplore.ieee.org/document/9286821)|T-IP 2020|-|
 |[Camera Invariant Feature Learning for Generalized Face Anti-spoofing](https://arxiv.org/pdf/2101.10075.pdf)|T-IFS 2020| Domain generalization |
 |[NAS-FAS: Static-Dynamic Central Difference Network Search for Face Anti-Spoofing](https://arxiv.org/abs/2011.02062)| T-PAMI 2020|NAS; Domain generalization;|
@@ -131,6 +134,7 @@ Please feel free to pull requests or open an issue to add papers.
 + T-IFS: [IEEE Transactions on Information Forensics and Security](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206)
 + T-IP: [IEEE Transactions on Image Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)
 + T-DSC: [IEEE Transactions on Cognitive and Developmental Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274989)  
++ T-BIOM [IEEE Transactions on Biometrics, Behavior, and Identity Science](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8423754)
 + CVPR: [Conference on Computer Vision and Pattern Recognition](https://ieeexplore.ieee.org/xpl/conhome/1000147/all-proceedings)
 + ICCV: [International Conference on Computer Vision](https://ieeexplore.ieee.org/xpl/conhome/1000149/all-proceedings)
 + ECCV: [European Conference on Computer Vision (Springer)](https://link.springer.com/conference/eccv)
