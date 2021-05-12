@@ -47,6 +47,7 @@ Please feel free to pull requests or open an issue to add papers.
 ## Year 2021
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
+|[Learning One Class Representations for Face Presentation Attack Detection Using Multi-Channel Convolutional Neural Networks](https://arxiv.org/abs/2007.11457)|T-IFS 2021| Multi-modality |
 |[Face Anti-Spoofing via Adversarial Cross-Modality Translation](http://www.cbsr.ia.ac.cn/users/jwan/papers/TIFS2021-spoof.pdf)|T-IFS 2021| Multi-modality |
 |[Cross Modal Focal Loss for RGBD Face Anti-Spoofing](https://arxiv.org/abs/2103.00948#:~:text=Automatic%20methods%20for%20detecting%20presentation,in%20generalizing%20to%20unseen%20attacks.)|CVPR 2021| Multi-modality |
 |[Data Fusion based Two-stage Cascade Framework for Multi-Modality Face Anti-Spoofing](https://arxiv.org/abs/2103.00948#:~:text=Automatic%20methods%20for%20detecting%20presentation,in%20generalizing%20to%20unseen%20attacks.)|T-DSC 2021| Multi-modality  |
