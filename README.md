@@ -27,11 +27,11 @@ Please feel free to pull requests or open an issue to add papers.
 |[Ambient-Flash](https://ieeexplore.ieee.org/document/9286821)|2021|2D attacks|VIS, additional light flashing|
 |[3DMA](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/papers/avss193dma.pdf)|2019|3D Mask|VIS,NIR|67 genuine + 48masks|920|
 |[CASIA-SURF 3D HiFi Mask](https://arxiv.org/abs/2104.06148)|2020|3D Mask|VIS|
-|[CASIA-SURF 3D Mask](http://www.cbsr.ia.ac.cn/users/jwan/database/3DMask.pdf)|2020|3D Mask|VIS|
+|[CASIA-SURF 3D Mask](http://www.cbsr.ia.ac.cn/users/jwan/database/3DMask.pdf), [paper](http://www.cbsr.ia.ac.cn/users/jwan/papers/TPAMI2020-spoof.pdf)|2020|3D Mask|VIS|
 |[CUHK MMLab CelebA-Spoof](https://github.com/Davidzhangyuanhan/CelebA-Spoof)|2020|2D Print, Replay (Derived from CelbeA dataset)|VIS |
-|[CASIA-SURF CeFA](https://arxiv.org/abs/2003.05136)|2019|2D and 3D attacks| VIS, Depth, Infrared (IR)|
-|[IDIAP WMCA](https://www.idiap.ch/dataset/wmca)|2019|2D Print, Replay and 3D Rigid Mask, Flexible Mask, Paper Mask attacks|VIS, depth, infrared and thermal|
-|[CASIA-SURF](https://www.researchgate.net/publication/329388462_CASIA-SURF_A_Dataset_and_Benchmark_for_Large-scale_Multi-modal_Face_Anti-spoofing)|2019|2D Print|VIS, Depth, Infrared (IR)|1000|21000|
+|[CASIA-SURF Cross-ethnicity Face Anti-spoofing (CeFA)](https://arxiv.org/abs/2003.05136), [paper](https://openaccess.thecvf.com/content/WACV2021/papers/Liu_CASIA-SURF_CeFA_A_Benchmark_for_Multi-Modal_Cross-Ethnicity_Face_Anti-Spoofing_WACV_2021_paper.pdf)|2019|2D Print, Replay; 3D print, silica gel mask| VIS, Depth, Infrared (IR)|8|192|
+|[IDIAP WMCA](https://www.idiap.ch/dataset/wmca)|2019|2D Print, Replay and 3D Rigid Mask, Flexible Mask, Paper Mask attacks|VIS, depth, infrared and thermal|72|6716|
+|[CASIA-SURF](https://www.researchgate.net/publication/329388462_CASIA-SURF_A_Dataset_and_Benchmark_for_Large-scale_Multi-modal_Face_Anti-spoofing), [paper](https://arxiv.org/pdf/1908.10654.pdf)|2018|2D Print/Cut|VIS, Depth, Infrared (IR)|1000|21000|
 |[IDIAP CSMAD](https://www.idiap.ch/dataset/csmad)|2018|Custom Silicone Mask Attack|VIS, near-infrared (NIR), Thermal from long-wave infrared (LWIR), |
 |[ROSE-YOUTU](http://rose1.ntu.edu.sg/datasets/faceLivenessDetection.asp)|2018|2D Replay, Print, Paper Mask|VIS|25|4225|
 |~~MSU SiW-M~~（unavailable now）| 2019 | 2D Replay, Print & 3D Mask|VIS|
@@ -39,7 +39,7 @@ Please feel free to pull requests or open an issue to add papers.
 |[HKBU-MARs](http://rds.comp.hkbu.edu.hk/mars/)|2016|3D MASK|VIS|12|1008|
 |[OULU-NPU](https://sites.google.com/site/oulunpudatabase/)|  2017 |2D Replay, Print|VIS|55|5940|
 |[IDIAP Multispectral-Spoof Dataset](https://www.idiap.ch/dataset/msspoof)|2015|2D Print|VIS, Near-Infrared|21|4704 images|
-|[IDIAP 3D Mask Attack Dataset (3DMAD)](https://www.idiap.ch/dataset/3dmad)|2013|3D Mask|VIS, Depth|17|255|
+|[IDIAP 3D Mask Attack Dataset (3DMAD)](https://www.idiap.ch/dataset/3dmad), [paper](https://ieeexplore.ieee.org/document/6712688)|2013|3D Mask|VIS, Depth|17|255|
 |[IDIAP Replay Attack](https://www.idiap.ch/dataset/replayattack)|2012|2D Replay, Print|VIS|
 |[CASIA MFSD (FASD)](http://www.cbsr.ia.ac.cn/english/FASDB_Agreement/Agreement.pdf)| 2012|2D Replay, Print|VIS|50|600||
 
@@ -89,13 +89,14 @@ Please feel free to pull requests or open an issue to add papers.
 |[A Dataset and Benchmark for Large-scale Multi-modal Face Anti-spoofing](https://yuan-gao.net/pdf/CVPR2019%20-%20antispoofing.pdf)|CVPR 2019|RGB+IR+Depth, 2D Attack|
 |[Deep Tree Learning for Zero-shot Face Anti-Spoofing](http://cvlab.cse.msu.edu/pdfs/Liu_Stehouwer_Jourabloo_Liu_CVPR2019.pdf)|CVPR 2019|RGB, 2D Attack|
 |[Deep Anomaly Detection for Generalized Face Anti Spoofing](http://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Perez-Cabo_Deep_Anomaly_Detection_for_Generalized_Face_Anti-Spoofing_CVPRW_2019_paper.pdf)|CVPRW 2019|RGB, 2D Attack|
+|[Joint Discriminative Learning of Deep Dynamic Textures for 3D Mask Face Anti-Spoofing](https://ieeexplore.ieee.org.remotexs.ntu.edu.sg/document/8453011)|T-IFS 2019|VIS, 3D Attack|
 |[Multi-adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)|CVPR 2019|RGB, 2D Attack,|
 |[Exploiting temporal and depth information for multi-frame face anti-spoofing](https://arxiv.org/abs/1811.05118)|ArXiv 2018|RGB,  2D Presentation Attack, Multi-frame |
 |[Face De-Spoofing: Anti-Spoofing via Noise Modeling](https://arxiv.org/abs/1807.09968)|ECCV 2018|RGB, 2D Attack, pseudo depth, [Code](https://github.com/yaojieliu/ECCV2018-FaceDeSpoofing)|
 |[Learning Deep Models for Face Anti-Spoofing: Binary or Auxiliary Supervision](http://cvlab.cse.msu.edu/pdfs/Liu_Jourabloo_Liu_CVPR2018.pdf)|CVPR 2018|RGB, 2D Attack, pseudo depth+rPPG|
 |[Learning generalized deep feature representation for face anti-spoofing](https://rose.ntu.edu.sg/Publications/Documents/Face%20Spoofing%20Detection/Learning%20Generalized%20Deep%20Feature%20Representation%20for%20Face%20Anti-Spoofing.pdf)| T-IFS 2018|RGB, 2D Presentation Attack,|
 |[Unsupervised domain adaptation for face anti-spoofing](https://ieeexplore.ieee.org/document/8279564)| T-IFS 2018|RGB, 2D Attack, unsupervised domain adaptation|
-|[Person-Specific Face Anti-Spoofing With Subject Domain Adaptation](https://ieeexplore.ieee.org/document/7041231)| T-IFS 2015|RGB, 2D Attack, Person-specific|
+
 
 ## Before 2018
 |  Title  | Venue | Note|
@@ -104,6 +105,7 @@ Please feel free to pull requests or open an issue to add papers.
 |[Face Spoofing Detection Using Colour Texture Analysis](https://www.researchgate.net/publication/301571761_Face_Spoofing_Detection_Using_Colour_Texture_Analysis)| T-IFS 2016|RGB, 2D Attack, Color LBP|
 |[Spoofing Face Recognition With 3D Masks](https://www.researchgate.net/publication/262605045_Spoofing_Face_Recognition_With_3D_Masks)| T-IFS 2014|3D Mask|
 |[Face Spoofing Detection Through Visual Codebooks of Spectral Temporal Cubes](https://www.researchgate.net/publication/281054869_Face_Spoofing_Detection_Through_Visual_Codebooks_of_Spectral_Temporal_Cubes)|IEEE TIP 2015|RGB, 2D Attack,|
+|[Person-Specific Face Anti-Spoofing With Subject Domain Adaptation](https://ieeexplore.ieee.org/document/7041231)| T-IFS 2015|RGB, 2D Attack, Person-specific|
 |[Face Spoof Detection with Image Distortion Analysis](http://vipl.ict.ac.cn/uploadfile/upload/2017020711092984.pdf)| T-IFS 2015|RGB, 2D Attack, IDA|
 |[Face spoofing detection from single images using texture and local shape analysis](https://ieeexplore.ieee.org/document/6117510)|IJCB 2011|RGB, 2D Presentation Attack, LBP|
 
