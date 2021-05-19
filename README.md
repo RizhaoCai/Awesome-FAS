@@ -22,25 +22,26 @@ Please feel free to pull requests or open an issue to add papers.
 
 
 # Databases
-|  Name  | Publisher | Release year | Attack | Modality|
-|:--------|:--------:|:--------:|:--------:|:--------:|
-|[Ambient-Flash](https://ieeexplore.ieee.org/document/9286821)|CSIC|2021|2D attacks|RGB, additional light flashing|
-|[CASIA-SURF 3D HiFi Mask](https://arxiv.org/abs/2104.06148)|CASIA CBSR & SURF Co.|2020|3D Mask|RGB|
-|[CASIA-SURF 3D Mask](http://www.cbsr.ia.ac.cn/users/jwan/database/3DMask.pdf)|CASIA CBSR & SURF Co.|2020|3D Mask|RGB|
-|[CelebA-Spoof](https://github.com/Davidzhangyuanhan/CelebA-Spoof)|CUHK MMLab|2020|2D Attack (Print, Replay)|RGB, Derived from CelbeA dataset|
-|[CASIA-SURF CeFA](https://arxiv.org/abs/2003.05136)|CASIA CBSR & SURF Co.|2019|2D and 3D attacks| RGB, Depth, Infrared (IR)|
-|[WMCA](https://www.idiap.ch/dataset/wmca)|Idiap Research Institute|2019|2D (Print, Replay) and 3D (Rigid Mask, Flexible Mask, Paper Mask) attacks|RGB, depth, infrared and thermal|
-|[CASIA-SURF](https://www.researchgate.net/publication/329388462_CASIA-SURF_A_Dataset_and_Benchmark_for_Large-scale_Multi-modal_Face_Anti-spoofing)|CASIA CBSR & SURF Co.|2019|2D Attack (Print)|RGB, Depth, Infrared (IR)|
-|[CSMAD](https://www.idiap.ch/dataset/csmad)|Idiap Research Institute|2018|Custom Silicone Mask Attack|RGB, near-infrared (NIR), Thermal from long-wave infrared (LWIR), |
-|[ROSE-YOUTU](http://rose1.ntu.edu.sg/datasets/faceLivenessDetection.asp)|ROSE Lab NTU, Singapore & YOUTU Lab, Tencent |2018|2D Attack (Replay, Print), Paper Mask|RGB|
-|~~SiW-M~~（unavailable now）|Michigan State University| 2019 |Currently 2D (Replay, Print) & 3D Mask|RGB|
-|[SiW (Spoofing in the Wild)](http://cvlab.cse.msu.edu/spoof-in-the-wild-siw-face-anti-spoofing-database.html)| Michigan State University| 2018 |2D (Replay, Print)|RGB|
-|[HKBU-MARs](http://rds.comp.hkbu.edu.hk/mars/)|HKBU|2018|3D MASK|RGB|
-|[OULU-NPU](https://sites.google.com/site/oulunpudatabase/)| OULU University, Finland & NPU Co.| 2017 |2D Attack (Replay, Print)|RGB|
-|[Multispectral-Spoof Dataset](https://www.idiap.ch/dataset/msspoof)|Idiap Research Institute|2015|2D Attack (Print)|RGB, Near-Infrared|
-|[IDIAP 3D Mask Attack Dataset](https://www.idiap.ch/dataset/3dmad)|Idiap Research Institute|2013|3D Mask|RGB, Depth|
-|[IDIAP Replay Attack](https://www.idiap.ch/dataset/replayattack)|Idiap Research Institute|2012|2D Attack (Replay, Print)|RGB|
-|[CASIA FASD](http://www.cbsr.ia.ac.cn/english/FASDB_Agreement/Agreement.pdf)| CASIA CBSR |2012|2D Attack (Replay, Print)|RGB|
+|  Name   | Release year | Attacks | Modalities|#subjects|#videos| 
+|:--------|:--------:|:--------:|:--------:|:--------:|:--------:|
+|[Ambient-Flash](https://ieeexplore.ieee.org/document/9286821)|2021|2D attacks|VIS, additional light flashing|
+|[3DMA](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/papers/avss193dma.pdf)|2019|3D Mask|VIS,NIR|67 genuine + 48masks|920|
+|[CASIA-SURF 3D HiFi Mask](https://arxiv.org/abs/2104.06148)|2020|3D Mask|VIS|
+|[CASIA-SURF 3D Mask](http://www.cbsr.ia.ac.cn/users/jwan/database/3DMask.pdf)|2020|3D Mask|VIS|
+|[CUHK MMLab CelebA-Spoof](https://github.com/Davidzhangyuanhan/CelebA-Spoof)|2020|2D Print, Replay (Derived from CelbeA dataset)|VIS |
+|[CASIA-SURF CeFA](https://arxiv.org/abs/2003.05136)|2019|2D and 3D attacks| VIS, Depth, Infrared (IR)|
+|[IDIAP WMCA](https://www.idiap.ch/dataset/wmca)|2019|2D Print, Replay and 3D Rigid Mask, Flexible Mask, Paper Mask attacks|VIS, depth, infrared and thermal|
+|[CASIA-SURF](https://www.researchgate.net/publication/329388462_CASIA-SURF_A_Dataset_and_Benchmark_for_Large-scale_Multi-modal_Face_Anti-spoofing)|2019|2D Print|VIS, Depth, Infrared (IR)|1000|21000|
+|[IDIAP CSMAD](https://www.idiap.ch/dataset/csmad)|2018|Custom Silicone Mask Attack|VIS, near-infrared (NIR), Thermal from long-wave infrared (LWIR), |
+|[ROSE-YOUTU](http://rose1.ntu.edu.sg/datasets/faceLivenessDetection.asp)|2018|2D Replay, Print, Paper Mask|VIS|25|4225|
+|~~MSU SiW-M~~（unavailable now）| 2019 | 2D Replay, Print & 3D Mask|VIS|
+|[MSU SiW (Spoofing in the Wild)](http://cvlab.cse.msu.edu/spoof-in-the-wild-siw-face-anti-spoofing-database.html)| 2018 |2D Replay, Print|VIS|165|4620|
+|[HKBU-MARs](http://rds.comp.hkbu.edu.hk/mars/)|2016|3D MASK|VIS|12|1008|
+|[OULU-NPU](https://sites.google.com/site/oulunpudatabase/)|  2017 |2D Replay, Print|VIS|55|5940|
+|[IDIAP Multispectral-Spoof Dataset](https://www.idiap.ch/dataset/msspoof)|2015|2D Print|VIS, Near-Infrared|21|4704 images|
+|[IDIAP 3D Mask Attack Dataset (3DMAD)](https://www.idiap.ch/dataset/3dmad)|2013|3D Mask|VIS, Depth|17|255|
+|[IDIAP Replay Attack](https://www.idiap.ch/dataset/replayattack)|2012|2D Replay, Print|VIS|
+|[CASIA MFSD (FASD)](http://www.cbsr.ia.ac.cn/english/FASDB_Agreement/Agreement.pdf)| 2012|2D Replay, Print|VIS|50|600||
 
 
 # Learning-based methods
