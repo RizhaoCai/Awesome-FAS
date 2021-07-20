@@ -48,10 +48,11 @@ Please feel free to pull requests or open an issue to add papers.
 ## Year 2021
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
+|[Dual-Cross Central Difference Network for Face Anti-Spoofing](https://arxiv.org/pdf/2105.01290.pdf)|IJCAI 2021||
 |[Learning One Class Representations for Face Presentation Attack Detection Using Multi-Channel Convolutional Neural Networks](https://arxiv.org/abs/2007.11457)|T-IFS 2021| Multi-modality |
 |[Face Anti-Spoofing via Adversarial Cross-Modality Translation](http://www.cbsr.ia.ac.cn/users/jwan/papers/TIFS2021-spoof.pdf)|T-IFS 2021| Multi-modality |
 |[Cross Modal Focal Loss for RGBD Face Anti-Spoofing](https://arxiv.org/abs/2103.00948#:~:text=Automatic%20methods%20for%20detecting%20presentation,in%20generalizing%20to%20unseen%20attacks.)|CVPR 2021| Multi-modality |
-|[Data Fusion based Two-stage Cascade Framework for Multi-Modality Face Anti-Spoofing](https://arxiv.org/abs/2103.00948#:~:text=Automatic%20methods%20for%20detecting%20presentation,in%20generalizing%20to%20unseen%20attacks.)|T-DSC 2021| Multi-modality  |
+|[Data Fusion based Two-stage Cascade Framework for Multi-Modality Face Anti-Spoofing](https://www.researchgate.net/publication/349901486_Data_Fusion_based_Two-stage_Cascade_Framework_for_Multi-Modality_Face_Anti-Spoofing)|T-DSC 2021| Multi-modality  |
 |[Improved Detection of Face Presentation Attacks Using Image Decomposition](https://arxiv.org/pdf/2103.12201.pdf)| ArXiv 2021| Albedo  |
 |[Contrastive Context-Aware Learning for 3D High-Fidelity Mask Face Presentation Attack Detection](https://arxiv.org/abs/2104.06148)|ArXiv 2021|CASIA-SURF 3DHiFi Dataset |
 |[TransRPPG: Remote Photoplethysmography Transformer for 3D Mask Face Presentation Attack Detection](https://arxiv.org/abs/2104.07419)|ArXiv 2021|rPPG |
