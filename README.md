@@ -48,7 +48,9 @@ Please feel free to pull requests or open an issue to add papers.
 ## Year 2021
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
-|[Dual-Cross Central Difference Network for Face Anti-Spoofing](https://arxiv.org/pdf/2105.01290.pdf)|IJCAI 2021||
+|[Deep Learning for Face Anti-Spoofing: A Survey](https://arxiv.org/pdf/2106.14948.pdf)|ArXiv 2021|Survey; Under review|
+|[Meta-teacher for Face Anti-Spoofing](https://ieeexplore.ieee.org/document/9462562)|T-PAMI 2021|MetaTeacher|
+|[Dual-Cross Central Difference Network for Face Anti-Spoofing](https://arxiv.org/pdf/2105.01290.pdf)|IJCAI 2021|Based on CDCN|
 |[Learning One Class Representations for Face Presentation Attack Detection Using Multi-Channel Convolutional Neural Networks](https://arxiv.org/abs/2007.11457)|T-IFS 2021| Multi-modality |
 |[Face Anti-Spoofing via Adversarial Cross-Modality Translation](http://www.cbsr.ia.ac.cn/users/jwan/papers/TIFS2021-spoof.pdf)|T-IFS 2021| Multi-modality |
 |[Cross Modal Focal Loss for RGBD Face Anti-Spoofing](https://arxiv.org/abs/2103.00948#:~:text=Automatic%20methods%20for%20detecting%20presentation,in%20generalizing%20to%20unseen%20attacks.)|CVPR 2021| Multi-modality |
@@ -60,6 +62,7 @@ Please feel free to pull requests or open an issue to add papers.
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
 |[Revisiting Pixel-Wise Supervision for Face Anti-Spoofing](https://www.researchgate.net/publication/346303022_Revisiting_Pixel-Wise_Supervision_for_Face_Anti-Spoofing)|T-BIOM 2020|-|
+|[Cross-domain face presentation attack detection via multi-domain disentangled representation learning](https://arxiv.org/abs/2004.01959)|CVPR 2020|DG, Disentangledment learning|
 |[Rethinking Shape From Shading for Spoofing Detection](https://ieeexplore.ieee.org/document/9286821)|T-IP 2020|-|
 |[Camera Invariant Feature Learning for Generalized Face Anti-spoofing](https://arxiv.org/pdf/2101.10075.pdf)|T-IFS 2020| Domain generalization |
 |[NAS-FAS: Static-Dynamic Central Difference Network Search for Face Anti-Spoofing](https://arxiv.org/abs/2011.02062)| T-PAMI 2020|NAS; Domain generalization;|
@@ -117,6 +120,7 @@ Please feel free to pull requests or open an issue to add papers.
 # System / Mobile Applications
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
+|[RFace: Anti-Spoofing Facial Authentication Using COTS RFID](https://www4.comp.polyu.edu.hk/~csyqzheng/papers/RFace-INFOCOM21.pdf)|INFOCOM 2021|RFID; privacy preserved|
 |[FaceRevelio: A Face Liveness Detection System for Smartphones with a Single Front Camera](https://habiba-farrukh.github.io/files/FaceRevelio.pdf)|MobiCom 2020|RGB+Flashing|
 |[EchoPrint: Two-factor Authentication using Acoustics and Vision on Smartphones](https://www.researchgate.net/publication/328325417_EchoPrint_Two-factor_Authentication_using_Acoustics_and_Vision_on_Smartphones)|MobiCom 2018|Acoustic+Vision|
 |[Face Flashing: a Secure Liveness Detection Protocol based on Light Reflections](https://arxiv.org/pdf/1801.01949.pdf)|NDSS 2018|RGB+Flashing|
