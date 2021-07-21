@@ -83,6 +83,9 @@ Please feel free to pull requests or open an issue to add papers.
 |[Domain Agnostic Feature Learning for Image and Video Based Face Anti-Spooﬁng](https://arxiv.org/pdf/1912.07124.pdf)|CVPRW 2020|RGB, 2D  Attack|
 |[Learning Generalized Spoof Cues for Face Anti-spoofing](https://arxiv.org/abs/2005.03922)|ArXiv 2020| RGB, 2D Attack, [Code](https://github.com/vis-var/lgsc-for-fas);|
 |[Learning Meta Model for Zero- and Few-shot Face Anti-spoofing](https://arxiv.org/abs/1904.12490)|AAAI 2020|RGB, 2D Presentation Attack, Meta Learning, [Code](https://github.com/qyxqyx/AIM_FAS); few-shot|
+|[Learning to Learn Face-PAD: a lifelong learning approach](https://www.researchgate.net/publication/348324514_Learning_to_Learn_Face-PAD_a_lifelong_learning_approach)|IJCB 2020|Life-long learning|
+|[Learning Generalizable and Identity-Discriminative Representations for Face Anti-Spoofing](https://dl.acm.org/doi/abs/10.1145/3402446)|ACM TIST 2020|DA|
+
 
 ## Year 2019-2018
 |  Title  | Venue | Note |
