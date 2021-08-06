@@ -59,6 +59,7 @@ Please feel free to pull requests or open an issue to add papers.
 |[Contrastive Context-Aware Learning for 3D High-Fidelity Mask Face Presentation Attack Detection](https://arxiv.org/abs/2104.06148)|ArXiv 2021|CASIA-SURF 3DHiFi Dataset |
 |[TransRPPG: Remote Photoplethysmography Transformer for 3D Mask Face Presentation Attack Detection](https://arxiv.org/abs/2104.07419)|ArXiv 2021|rPPG |
 |[Structure Destruction and Content Combination for Face Anti-Spoofing](https://arxiv.org/pdf/2107.10628.pdf)|IJCB 2021| |
+|[Adaptive Normalized Representation Learning for Generalizable Face Anti-Spoofing](https://arxiv.org/pdf/2108.02667.pdf)|ACM MM 2021| |
 ## Year 2020
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
