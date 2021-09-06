@@ -48,6 +48,7 @@ Please feel free to pull requests or open an issue to add papers.
 ## Year 2021
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
+|[Detection and Continual Learning of Novel Face Presentation Attacks](https://arxiv.org/abs/2108.12081)|ICCV 2021|Continual Learning; New attack types|
 |[Deep Learning for Face Anti-Spoofing: A Survey](https://arxiv.org/pdf/2106.14948.pdf)|ArXiv 2021|Survey; Under review|
 |[Meta-teacher for Face Anti-Spoofing](https://ieeexplore.ieee.org/document/9462562)|T-PAMI 2021|MetaTeacher|
 |[Dual-Cross Central Difference Network for Face Anti-Spoofing](https://arxiv.org/pdf/2105.01290.pdf)|IJCAI 2021|Based on CDCN|
