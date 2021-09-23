@@ -5,6 +5,7 @@ A curated list of Face Authentication Security (including face anti-spoofing/fac
 
 Please feel free to pull requests or open an issue to add papers.
 
+
 # Contents
 - [Awesome-FAS (Face Authentication Security)](#awesome-fas-face-authentication-security)
   - [Contents](#contents)
@@ -165,6 +166,20 @@ Please feel free to pull requests or open an issue to add papers.
 + ArXiv: Papers that only appear in ArXiv are regarded not published, but they are collected here for reference only.
 
 
+---
+If you feel useful about this repo, please kindly cite my work in your publication.
+
+  @article{cai2020drlfas,
+      title={DRL-FAS: A Novel Framework Based on Deep Reinforcement Learning for Face Anti-Spoofing},   
+      author={Cai, Rizhao and Li, Haoliang and Wang, Shiqi and Chen, Changsheng and Kot, Alex C},   
+      journal={IEEE Transactions on Information Forensics and Security},   
+      volume={16},  
+      pages={937--951},  
+      year={2020},   
+      publisher={IEEE},
+      doi={10.1109/TIFS.2020.3026553}
+  }
+  
 
 
 
