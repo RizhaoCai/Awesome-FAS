@@ -49,6 +49,7 @@ Please feel free to pull requests or open an issue to add papers.
 ## Year 2021
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
+|[Attention-Based Spatial-Temporal Multi-Scale Network for Face Anti-Spoofing](https://ieeexplore.ieee.org/iel7/8423754/9467110/09382387.pdf)|T-BIOM 2021||
 |[Self-Domain Adaptation for Face Anti-Spoofing](https://arxiv.org/abs/2102.12129)|AAAI 2021|DA|
 |[Detection and Continual Learning of Novel Face Presentation Attacks](https://arxiv.org/abs/2108.12081)|ICCV 2021|Continual Learning; New attack types|
 |[Deep Learning for Face Anti-Spoofing: A Survey](https://arxiv.org/pdf/2106.14948.pdf)|ArXiv 2021|Survey; Under review|
