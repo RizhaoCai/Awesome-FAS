@@ -50,6 +50,7 @@ Please feel free to pull requests or open an issue to add papers.
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
 |[Learning Meta Pattern for Face Anti-Spoofing](https://arxiv.org/pdf/2110.06753.pdf)|ArXiv 2021|MetaPattern|
+|[Dual Spoof Disentanglement Generation for Face Anti-spoofing with Depth Uncertainty Learning](https://arxiv.org/pdf/2112.00568.pdf)|ArXiv 2021||
 |[Unified Detection of Digital and Physical Face Attacks](http://cvlab.cse.msu.edu/pdfs/deb_liu_jain_arxiv2021_unified.pdf)|ArXiv 2021||
 |[Attention-Based Spatial-Temporal Multi-Scale Network for Face Anti-Spoofing](https://ieeexplore.ieee.org/iel7/8423754/9467110/09382387.pdf)|T-BIOM 2021||
 |[Self-Domain Adaptation for Face Anti-Spoofing](https://arxiv.org/abs/2102.12129)|AAAI 2021|DA|
@@ -131,6 +132,7 @@ Please feel free to pull requests or open an issue to add papers.
 # System / Mobile Applications
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
+|[Efficient Face Spoofing Detection With Flash](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9419913)|T-BIOM|Flash|
 |[RFace: Anti-Spoofing Facial Authentication Using COTS RFID](https://www4.comp.polyu.edu.hk/~csyqzheng/papers/RFace-INFOCOM21.pdf)|INFOCOM 2021|RFID; privacy preserved|
 |[FaceRevelio: A Face Liveness Detection System for Smartphones with a Single Front Camera](https://habiba-farrukh.github.io/files/FaceRevelio.pdf)|MobiCom 2020|RGB+Flashing|
 |[EchoPrint: Two-factor Authentication using Acoustics and Vision on Smartphones](https://www.researchgate.net/publication/328325417_EchoPrint_Two-factor_Authentication_using_Acoustics_and_Vision_on_Smartphones)|MobiCom 2018|Acoustic+Vision|
