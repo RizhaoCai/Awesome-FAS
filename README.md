@@ -46,6 +46,11 @@ Please feel free to pull requests or open an issue to add papers.
 
 
 # Learning-based methods
+## Year 2022
+|  Title  | Venue | Note |
+|:--------|:--------:|:--------:|
+|[Feature Generation and Hypothesis Verification for Reliable Face Anti-Spoofing](https://arxiv.org/pdf/2112.14894.pdf)|AAAI 2022|Hypothesis Verification?|
+
 ## Year 2021
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
