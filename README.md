@@ -55,6 +55,7 @@ Please feel free to pull requests or open an issue to add papers.
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
 |[Learning Meta Pattern for Face Anti-Spoofing](https://arxiv.org/pdf/2110.06753.pdf)|ArXiv 2021|MetaPattern|
+|[Consistency Regularization for Deep Face Anti-Spoofing](https://arxiv.org/pdf/2111.12320.pdf)|ArXiv 2021| |
 |[Dual Spoof Disentanglement Generation for Face Anti-spoofing with Depth Uncertainty Learning](https://arxiv.org/pdf/2112.00568.pdf)|ArXiv 2021||
 |[Unified Detection of Digital and Physical Face Attacks](http://cvlab.cse.msu.edu/pdfs/deb_liu_jain_arxiv2021_unified.pdf)|ArXiv 2021||
 |[Attention-Based Spatial-Temporal Multi-Scale Network for Face Anti-Spoofing](https://ieeexplore.ieee.org/iel7/8423754/9467110/09382387.pdf)|T-BIOM 2021||
