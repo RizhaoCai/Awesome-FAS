@@ -49,12 +49,12 @@ Please feel free to pull requests or open an issue to add papers.
 ## Year 2022
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
+|[Learning Meta Pattern for Face Anti-Spoofing](https://arxiv.org/pdf/2110.06753.pdf)|TIFS 2022|MetaPattern|
 |[Feature Generation and Hypothesis Verification for Reliable Face Anti-Spoofing](https://arxiv.org/pdf/2112.14894.pdf)|AAAI 2022|Hypothesis Verification?|
 
 ## Year 2021
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
-|[Learning Meta Pattern for Face Anti-Spoofing](https://arxiv.org/pdf/2110.06753.pdf)|ArXiv 2021|MetaPattern|
 |[Consistency Regularization for Deep Face Anti-Spoofing](https://arxiv.org/pdf/2111.12320.pdf)|ArXiv 2021| |
 |[Dual Spoof Disentanglement Generation for Face Anti-spoofing with Depth Uncertainty Learning](https://arxiv.org/pdf/2112.00568.pdf)|ArXiv 2021||
 |[Unified Detection of Digital and Physical Face Attacks](http://cvlab.cse.msu.edu/pdfs/deb_liu_jain_arxiv2021_unified.pdf)|ArXiv 2021||
