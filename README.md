@@ -52,6 +52,7 @@ Please feel free to pull requests or open an issue to add papers.
 |  Title  | Venue | Note |
 |:--------|:--------:|:--------:|
 |[Learning Meta Pattern for Face Anti-Spoofing](https://arxiv.org/pdf/2110.06753.pdf)|TIFS 2022|MetaPattern, [Code](https://github.com/RizhaoCai/MetaPattern_FAS)|
+|[Adaptive Transformers for Robust Few-shot Cross-domain Face Anti-spoofing](https://arxiv.org/pdf/2203.12175.pdf)|ArXiv 2022| Preprint |
 |[Domain Generalization via Shuffled Style Assembly for Face Anti-Spoofing](https://arxiv.org/pdf/2204.12685.pdf)|Preprint 2022|Probabilistic Modeling|
 |[Robust Face Anti-Spoofing with Dual Probabilistic Modeling](https://arxiv.org/pdf/2203.05340.pdf)|CVPR 2022|Style transfer|
 |[Feature Generation and Hypothesis Verification for Reliable Face Anti-Spoofing](https://arxiv.org/pdf/2112.14894.pdf)|AAAI 2022|Hypothesis Verification?|
