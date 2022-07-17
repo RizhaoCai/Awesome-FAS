@@ -186,7 +186,7 @@ Please feel free to pull requests or open an issue to add papers.
 
 
 ---
-If you feel useful about this repo, please kindly cite and discuss my work in your publication.
+If you feel useful about this repo, we would be happy you are also interested in our works and use our papers your work's reference.
 
   @article{cai2020drlfas,
       title={DRL-FAS: A Novel Framework Based on Deep Reinforcement Learning for Face Anti-Spoofing},   
@@ -210,5 +210,12 @@ If you feel useful about this repo, please kindly cite and discuss my work in yo
   }
 
 
+@article{li2022one,
+  title={One-Class Knowledge Distillation for Face Presentation Attack Detection},
+  author={Li, Zhi and Cai, Rizhao and Li, Haoliang and Lam, Kwok-Yan and Hu, Yongjian and Kot, Alex C},
+  journal={IEEE Transactions on Information Forensics and Security},
+  year={2022},
+  publisher={IEEE}
+}
 
 
