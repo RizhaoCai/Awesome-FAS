@@ -16,6 +16,7 @@
 <h3>
   <a href="https://rizhaocai.github.io/Awesome-FAS/">🚀 Explore the Insights Dashboard →</a>
 </h3>
+<p>🌐 <a href="https://rizhaocai.github.io/Awesome-FAS/">English</a> · <a href="https://rizhaocai.github.io/Awesome-FAS/index.zh.html">中文</a></p>
 
 <p>
   <b>📄 <a href="./Face-Anti-Spoofing.md">Type 1 · Anti-Spoofing</a></b> &nbsp;·&nbsp;

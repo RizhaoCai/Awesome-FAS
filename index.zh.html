@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>人脸认证安全 · 洞察看板</title>
+<meta name="description" content="人脸认证安全精选阅读清单的洞察看板：人脸活体防伪（第一类）与深度伪造检测（第二类）的研究趋势，2022–2026。" />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#0b1020; --bg2:#11182e; --card:#161e38; --line:#26304f;
+    --ink:#e8edf7; --muted:#9aa6c4; --t1:#38bdf8; --t2:#f472b6; --uni:#a78bfa;
+    --accent:#fbbf24;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",Helvetica,Arial,sans-serif;
+    background:radial-gradient(1200px 600px at 70% -10%,#1b2547 0%,var(--bg) 55%);color:var(--ink);line-height:1.7}
+  a{color:var(--t1);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+  header.hero{padding:64px 20px 40px;text-align:center}
+  .badge-pill{display:inline-block;font-size:.8rem;letter-spacing:.12em;color:var(--accent);
+    border:1px solid var(--line);border-radius:999px;padding:6px 16px;background:rgba(251,191,36,.06)}
+  h1.title{font-size:clamp(2rem,5vw,3.4rem);margin:18px 0 6px;font-weight:800;letter-spacing:-.01em}
+  .title .em{filter:drop-shadow(0 4px 16px rgba(56,189,248,.4))}
+  .subtitle{color:var(--muted);max-width:700px;margin:0 auto 26px;font-size:1.08rem}
+  .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:11px 20px;border-radius:12px;font-weight:600;
+    border:1px solid var(--line);background:var(--card);color:var(--ink);transition:.15s}
+  .btn:hover{transform:translateY(-2px);text-decoration:none;border-color:var(--t1)}
+  .btn.primary{background:linear-gradient(120deg,var(--t1),var(--uni));color:#06101f;border:none}
+
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:36px 0}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;text-align:center}
+  .stat .n{font-size:2.1rem;font-weight:800;background:linear-gradient(120deg,var(--t1),var(--t2));
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .stat .l{color:var(--muted);font-size:.86rem;margin-top:2px}
+
+  section{padding:30px 0;border-top:1px solid var(--line)}
+  h2{font-size:1.5rem;margin:0 0 6px;display:flex;align-items:center;gap:10px}
+  h2 .tag{font-size:.7rem;color:var(--accent);border:1px solid var(--line);border-radius:6px;padding:2px 8px;letter-spacing:.1em}
+  .lead{color:var(--muted);margin:0 0 22px;max-width:780px}
+
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:760px){.grid2{grid-template-columns:1fr}}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+  .panel h3{margin:0 0 12px;font-size:1rem;color:var(--ink)}
+  .chartbox{position:relative;height:300px}
+
+  .cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+  @media(max-width:760px){.cols{grid-template-columns:1fr}}
+  .col{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;position:relative;overflow:hidden}
+  .col.t1{border-top:3px solid var(--t1)}
+  .col.t2{border-top:3px solid var(--t2)}
+  .col.uni{border-top:3px solid var(--uni)}
+  .col .ic{font-size:2rem}
+  .col h3{margin:10px 0 4px;font-size:1.15rem}
+  .col p{color:var(--muted);font-size:.92rem;margin:0 0 14px}
+  .chip{display:inline-block;font-size:.74rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:3px 10px;margin:2px 2px 0 0}
+
+  .insights{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:760px){.insights{grid-template-columns:1fr}}
+  .ins{background:linear-gradient(180deg,var(--card),var(--bg2));border:1px solid var(--line);border-radius:16px;padding:20px}
+  .ins .k{font-size:.78rem;letter-spacing:.08em;color:var(--accent);font-weight:700}
+  .ins h4{margin:6px 0 8px;font-size:1.12rem}
+  .ins p{margin:0;color:var(--muted);font-size:.94rem}
+  .ins code{background:#0d1428;border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:.85em;color:var(--t1)}
+
+  .langbar{position:fixed;top:14px;right:16px;z-index:10;background:rgba(22,30,56,.85);backdrop-filter:blur(6px);
+    border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:.85rem;font-weight:600}
+  .langbar a{color:var(--muted)}
+  .langbar .on{color:var(--ink)}
+  footer{padding:40px 20px 60px;text-align:center;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+  .disclaimer{font-size:.8rem;color:#6b769a;max-width:780px;margin:18px auto 0}
+</style>
+</head>
+<body>
+
+<div class="langbar"><a href="index.html">EN</a> · <a class="on">中文</a></div>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="badge-pill">🛡️ Awesome 资源列表 · 2022–2026</span>
+    <h1 class="title"><span class="em">🔐</span> 人脸认证安全</h1>
+    <p class="subtitle">一个精选的人脸识别防御研究阅读清单的洞察看板——涵盖<b>呈现攻击</b>（第一类）与<b>深度伪造</b>（第二类）。不只是论文列表：呈现该领域正在走向何方，以及为什么。</p>
+    <div class="cta">
+      <a class="btn primary" href="https://github.com/RizhaoCai/Awesome-FAS">⭐ GitHub 仓库</a>
+      <a class="btn" href="https://github.com/RizhaoCai/Awesome-FAS/blob/master/Face-Anti-Spoofing.md">📄 第一类 · 活体防伪</a>
+      <a class="btn" href="https://github.com/RizhaoCai/Awesome-FAS/blob/master/Deepfake-Detection.md">🎭 第二类 · 深伪检测</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="stats">
+    <div class="stat"><div class="n">285+</div><div class="l">检测论文</div></div>
+    <div class="stat"><div class="n">35+</div><div class="l">数据集与基准</div></div>
+    <div class="stat"><div class="n">10</div><div class="l">CCF-A 会议/期刊</div></div>
+    <div class="stat"><div class="n">5</div><div class="l">综述论文</div></div>
+    <div class="stat"><div class="n">2</div><div class="l">统一的攻击类型</div></div>
+  </div>
+
+  <!-- 合集 -->
+  <section style="border-top:none">
+    <h2>📚 两个合集，同一威胁模型</h2>
+    <p class="lead">攻击按照<i>进入系统的位置</i>来组织。第一类呈现给摄像头（ISO/IEC&nbsp;30107）；第二类注入到处理流程中，绕过传感器。</p>
+    <div class="cols">
+      <div class="col t1">
+        <div class="ic">📄</div>
+        <h3>第一类 — 呈现攻击</h3>
+        <p>打印、回放与三维面具等伪造物呈现给传感器。即人脸活体防伪 / 活体检测。</p>
+        <span class="chip">打印 / 回放</span><span class="chip">三维面具</span><span class="chip">rPPG</span><span class="chip">多模态</span>
+      </div>
+      <div class="col t2">
+        <div class="ic">🎭</div>
+        <h3>第二类 — 数字 / 注入</h3>
+        <p>换脸、表情重演、属性编辑与 GAN/扩散合成。即深度伪造 / 人脸伪造检测。</p>
+        <span class="chip">换脸</span><span class="chip">表情重演</span><span class="chip">扩散模型</span><span class="chip">音视频</span>
+      </div>
+      <div class="col uni">
+        <div class="ic">🧬</div>
+        <h3>统一（第一类 + 第二类）</h3>
+        <p>快速增长的桥梁：用单一模型同时检测物理攻击与数字攻击。</p>
+        <span class="chip">UniAttackData</span><span class="chip">MoAE-CR</span><span class="chip">FSFM</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 热度 -->
+  <section>
+    <h2>📈 研究热度 <span class="tag">2022–2026</span></h2>
+    <p class="lead">在生成式 AI 的推动下，深伪检测（第二类）正急剧加速；而活体防伪（第一类）保持稳定、成熟的产出。2026 为部分数据（年度进行中）。</p>
+    <div class="grid2">
+      <div class="panel"><h3>各年论文数（按攻击类型）</h3><div class="chartbox"><canvas id="momentum"></canvas></div></div>
+      <div class="panel"><h3>现代阶段占比（2022–2026）</h3><div class="chartbox"><canvas id="split"></canvas></div></div>
+    </div>
+  </section>
+
+  <!-- 会议 -->
+  <section>
+    <h2>🏛️ 研究发表在哪里</h2>
+    <p class="lead">跨两个合集合并统计。<b>IEEE T-IFS</b> 是该领域的重心；视觉会议（CVPR/ICCV/ECCV）与 AI 会议（AAAI/NeurIPS/IJCAI/ICLR）承载其余部分。</p>
+    <div class="panel"><div class="chartbox" style="height:360px"><canvas id="venues"></canvas></div></div>
+  </section>
+
+  <!-- 主题 -->
+  <section>
+    <h2>🔬 论文究竟在研究什么</h2>
+    <p class="lead">论文描述中反复出现的技术频次。一篇论文可能涉及多个主题。</p>
+    <div class="panel"><div class="chartbox" style="height:340px"><canvas id="themes"></canvas></div></div>
+  </section>
+
+  <!-- 洞察 -->
+  <section>
+    <h2>💡 塑造该领域的五大趋势</h2>
+    <div class="insights">
+      <div class="ins">
+        <div class="k">#1 · 核心问题</div>
+        <h4>泛化压倒一切</h4>
+        <p>最常见的目标：约 <code>309</code> 条论文说明中有 <code>108</code> 条提到域泛化或跨数据集鲁棒性。基准问题已从"你能检测<i>这个</i>攻击吗？"转向"你能检测<i>下一个</i>攻击吗？"</p>
+      </div>
+      <div class="ins">
+        <div class="k">#2 · 架构变革</div>
+        <h4>从 CNN 到视觉-语言与多模态大模型</h4>
+        <p><code>36</code> 篇论文依赖 CLIP、提示（prompt）或多模态大语言模型——从活体防伪中的 FLIP/CFPL，到深伪中的 Forensics-Adapter/M2F2-Det。基础模型正成为共享骨干，并顺带带来<b>可解释性</b>（FaceShield、I-FAS）。</p>
+      </div>
+      <div class="ins">
+        <div class="k">#3 · 生成式 AI 的两面</div>
+        <h4>扩散既是工具也是威胁</h4>
+        <p>扩散模型既制造更难辨别的伪造（DiFF、扩散人脸基准），也用于增强检测器（DiffFAS、DiffusionFake）。军备竞赛已变为生成器对检测器，检测器在合成的"对手"上训练。</p>
+      </div>
+      <div class="ins">
+        <div class="k">#4 · 融合</div>
+        <h4>物理攻击与数字攻击正在合并</h4>
+        <p>历史上相互独立的两个社区正在统一：单一模型既能识别打印照片，<i>也</i>能识别深度伪造。UniAttackData、MoAE-CR 与 FSFM 基础模型标志着<b>统一攻击检测</b>的研究议程。</p>
+      </div>
+      <div class="ins">
+        <div class="k">#5 · 超越静态图像</div>
+        <h4>视频、音频与终身学习兴起</h4>
+        <p><code>16</code> 篇音视频与 <code>11</code> 篇持续/增量学习论文反映两个现实：深伪是带声音的视频，而伪造类型不断演化——检测器必须持续学习且不遗忘。</p>
+      </div>
+      <div class="ins">
+        <div class="k">方法论</div>
+        <h4>该清单如何构建</h4>
+        <p>精选至 <b>CCF-A</b> 会议/期刊（CVPR、ICCV、ECCV、T-PAMI、T-IFS、AAAI、IJCAI、NeurIPS、ICLR、ACM&nbsp;MM），覆盖 2022–2026。每个条目都有可验证来源（会议论文集 / IEEE-DOI / arXiv）——绝无自动生成的引用。</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>由 <a href="https://github.com/RizhaoCai">Rizhao Cai</a> 维护 · 欢迎在 <a href="https://github.com/RizhaoCai/Awesome-FAS">GitHub</a> 上通过 PR/issue 贡献。</p>
+    <p class="disclaimer">统计数据源自精选的 Markdown 列表，反映以 CCF-A 为主的选择，并非全部文献。"第一类 / 第二类"标签遵循行业（FIDO）用法；呈现攻击检测本身在 ISO/IEC&nbsp;30107 中已标准化。</p>
+  </div>
+</footer>
+
+<script>
+const FONT = "#9aa6c4", GRID = "rgba(38,48,79,.6)";
+Chart.defaults.color = FONT;
+Chart.defaults.font.family = "-apple-system,Segoe UI,Roboto,PingFang SC,Microsoft YaHei,sans-serif";
+
+const years = ["2022","2023","2024","2025","2026*"];
+const t1 = [18,17,22,18,5];
+const t2 = [16,19,27,35,16];
+
+new Chart(document.getElementById("momentum"),{
+  type:"bar",
+  data:{labels:years,datasets:[
+    {label:"第一类 · 活体防伪",data:t1,backgroundColor:"#38bdf8",borderRadius:6},
+    {label:"第二类 · 深伪检测",data:t2,backgroundColor:"#f472b6",borderRadius:6}
+  ]},
+  options:{maintainAspectRatio:false,plugins:{legend:{position:"bottom"}},
+    scales:{x:{grid:{display:false}},y:{grid:{color:GRID},beginAtZero:true}}}
+});
+
+new Chart(document.getElementById("split"),{
+  type:"doughnut",
+  data:{labels:["第一类 · 活体防伪 (80)","第二类 · 深伪检测 (113)","统一 (5)"],
+    datasets:[{data:[80,113,5],backgroundColor:["#38bdf8","#f472b6","#a78bfa"],borderColor:"#11182e",borderWidth:3}]},
+  options:{maintainAspectRatio:false,cutout:"58%",plugins:{legend:{position:"bottom"}}}
+});
+
+const venL = ["T-IFS","CVPR","AAAI","ECCV","ICCV","ACM MM","T-PAMI","NeurIPS","IJCAI","ICLR"];
+const venV = [78,46,26,19,16,15,11,11,6,4];
+new Chart(document.getElementById("venues"),{
+  type:"bar",
+  data:{labels:venL,datasets:[{label:"论文数",data:venV,
+    backgroundColor:venL.map((_,i)=>`hsl(${205-i*16} 80% ${62-i*1.2}%)`),borderRadius:6}]},
+  options:{indexAxis:"y",maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{x:{grid:{color:GRID},beginAtZero:true},y:{grid:{display:false}}}}
+});
+
+const thL = ["泛化 / 跨域","视觉-语言 / CLIP / 大模型","Transformer / ViT","音视频","频域 / 小波 / Mamba","持续 / 增量学习","扩散模型","身份线索","对比学习","rPPG / 生理信号"];
+const thV = [108,36,22,16,16,11,10,10,9,6];
+new Chart(document.getElementById("themes"),{
+  type:"bar",
+  data:{labels:thL,datasets:[{label:"论文提及数",data:thV,
+    backgroundColor:"#a78bfa",borderRadius:6}]},
+  options:{indexAxis:"y",maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{x:{grid:{color:GRID},beginAtZero:true},y:{grid:{display:false},ticks:{font:{size:11}}}}}
+});
+</script>
+</body>
+</html>

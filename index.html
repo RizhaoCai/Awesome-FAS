@@ -73,11 +73,17 @@
   .ins p{margin:0;color:var(--muted);font-size:.94rem}
   .ins code{background:#0d1428;border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:.85em;color:var(--t1)}
 
+  .langbar{position:fixed;top:14px;right:16px;z-index:10;background:rgba(22,30,56,.85);backdrop-filter:blur(6px);
+    border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:.85rem;font-weight:600}
+  .langbar a{color:var(--muted)}
+  .langbar .on{color:var(--ink)}
   footer{padding:40px 20px 60px;text-align:center;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
   .disclaimer{font-size:.8rem;color:#6b769a;max-width:760px;margin:18px auto 0}
 </style>
 </head>
 <body>
+
+<div class="langbar"><a class="on">EN</a> · <a href="index.zh.html">中文</a></div>
 
 <header class="hero">
   <div class="wrap">
