@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Awesome Face Authentication Security — Insights</title>
+<meta name="description" content="An insight dashboard for the Awesome Face Authentication Security reading list: trends across face anti-spoofing (Type 1) and deepfake detection (Type 2), 2022–2026." />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#0b1020; --bg2:#11182e; --card:#161e38; --line:#26304f;
+    --ink:#e8edf7; --muted:#9aa6c4; --t1:#38bdf8; --t2:#f472b6; --uni:#a78bfa;
+    --accent:#fbbf24;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:radial-gradient(1200px 600px at 70% -10%,#1b2547 0%,var(--bg) 55%);color:var(--ink);line-height:1.6}
+  a{color:var(--t1);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+  /* hero */
+  header.hero{padding:64px 20px 40px;text-align:center}
+  .badge-pill{display:inline-block;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);
+    border:1px solid var(--line);border-radius:999px;padding:6px 16px;background:rgba(251,191,36,.06)}
+  h1.title{font-size:clamp(2rem,5vw,3.4rem);margin:18px 0 6px;font-weight:800;letter-spacing:-.02em}
+  .title .em{filter:drop-shadow(0 4px 16px rgba(56,189,248,.4))}
+  .subtitle{color:var(--muted);max-width:680px;margin:0 auto 26px;font-size:1.08rem}
+  .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:11px 20px;border-radius:12px;font-weight:600;
+    border:1px solid var(--line);background:var(--card);color:var(--ink);transition:.15s}
+  .btn:hover{transform:translateY(-2px);text-decoration:none;border-color:var(--t1)}
+  .btn.primary{background:linear-gradient(120deg,var(--t1),var(--uni));color:#06101f;border:none}
+
+  /* stat strip */
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:36px 0}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;text-align:center}
+  .stat .n{font-size:2.1rem;font-weight:800;background:linear-gradient(120deg,var(--t1),var(--t2));
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .stat .l{color:var(--muted);font-size:.86rem;margin-top:2px}
+
+  section{padding:30px 0;border-top:1px solid var(--line)}
+  h2{font-size:1.5rem;margin:0 0 6px;display:flex;align-items:center;gap:10px}
+  h2 .tag{font-size:.7rem;color:var(--accent);border:1px solid var(--line);border-radius:6px;padding:2px 8px;text-transform:uppercase;letter-spacing:.1em}
+  .lead{color:var(--muted);margin:0 0 22px;max-width:760px}
+
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:760px){.grid2{grid-template-columns:1fr}}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+  .panel h3{margin:0 0 12px;font-size:1rem;color:var(--ink)}
+  .chartbox{position:relative;height:300px}
+
+  /* collections */
+  .cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+  @media(max-width:760px){.cols{grid-template-columns:1fr}}
+  .col{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;position:relative;overflow:hidden}
+  .col.t1{border-top:3px solid var(--t1)}
+  .col.t2{border-top:3px solid var(--t2)}
+  .col.uni{border-top:3px solid var(--uni)}
+  .col .ic{font-size:2rem}
+  .col h3{margin:10px 0 4px;font-size:1.15rem}
+  .col p{color:var(--muted);font-size:.92rem;margin:0 0 14px}
+  .chip{display:inline-block;font-size:.74rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:3px 10px;margin:2px 2px 0 0}
+
+  /* insights */
+  .insights{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:760px){.insights{grid-template-columns:1fr}}
+  .ins{background:linear-gradient(180deg,var(--card),var(--bg2));border:1px solid var(--line);border-radius:16px;padding:20px}
+  .ins .k{font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);font-weight:700}
+  .ins h4{margin:6px 0 8px;font-size:1.12rem}
+  .ins p{margin:0;color:var(--muted);font-size:.94rem}
+  .ins code{background:#0d1428;border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:.85em;color:var(--t1)}
+
+  footer{padding:40px 20px 60px;text-align:center;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+  .disclaimer{font-size:.8rem;color:#6b769a;max-width:760px;margin:18px auto 0}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="badge-pill">🛡️ Awesome List · 2022–2026</span>
+    <h1 class="title"><span class="em">🔐</span> Face Authentication Security</h1>
+    <p class="subtitle">An insight dashboard for a curated reading list on defending face recognition — spanning <b>presentation attacks</b> (Type 1) and <b>deepfakes</b> (Type 2). Not just a paper list: where the field is moving, and why.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://github.com/RizhaoCai/Awesome-FAS">⭐ GitHub Repository</a>
+      <a class="btn" href="https://github.com/RizhaoCai/Awesome-FAS/blob/master/Face-Anti-Spoofing.md">📄 Type 1 · Anti-Spoofing</a>
+      <a class="btn" href="https://github.com/RizhaoCai/Awesome-FAS/blob/master/Deepfake-Detection.md">🎭 Type 2 · Deepfake</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="stats">
+    <div class="stat"><div class="n">285+</div><div class="l">detection papers</div></div>
+    <div class="stat"><div class="n">35+</div><div class="l">datasets &amp; benchmarks</div></div>
+    <div class="stat"><div class="n">10</div><div class="l">CCF-A venues</div></div>
+    <div class="stat"><div class="n">5</div><div class="l">survey papers</div></div>
+    <div class="stat"><div class="n">2</div><div class="l">attack types unified</div></div>
+  </div>
+
+  <!-- COLLECTIONS -->
+  <section style="border-top:none">
+    <h2>📚 Two collections, one threat model</h2>
+    <p class="lead">Attacks are organized by <i>where they enter the system</i>. Type 1 is presented to the camera (ISO/IEC&nbsp;30107); Type 2 is injected into the pipeline, bypassing the sensor.</p>
+    <div class="cols">
+      <div class="col t1">
+        <div class="ic">📄</div>
+        <h3>Type 1 — Presentation Attack</h3>
+        <p>Print, replay, and 3D-mask artefacts shown to the sensor. Face anti-spoofing / liveness detection.</p>
+        <span class="chip">Print / Replay</span><span class="chip">3D Mask</span><span class="chip">rPPG</span><span class="chip">Multi-modal</span>
+      </div>
+      <div class="col t2">
+        <div class="ic">🎭</div>
+        <h3>Type 2 — Digital / Injection</h3>
+        <p>Face-swap, reenactment, attribute edit, and GAN/diffusion synthesis. Deepfake / face-forgery detection.</p>
+        <span class="chip">Face-swap</span><span class="chip">Reenactment</span><span class="chip">Diffusion</span><span class="chip">Audio-visual</span>
+      </div>
+      <div class="col uni">
+        <div class="ic">🧬</div>
+        <h3>Unified (Type 1 + 2)</h3>
+        <p>A fast-growing bridge: single models that detect both physical and digital attacks together.</p>
+        <span class="chip">UniAttackData</span><span class="chip">MoAE-CR</span><span class="chip">FSFM</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MOMENTUM -->
+  <section>
+    <h2>📈 Research momentum <span class="tag">2022–2026</span></h2>
+    <p class="lead">Deepfake detection (Type 2) is accelerating sharply — driven by generative AI — while anti-spoofing (Type 1) holds a steady, mature output. 2026 is partial (year in progress).</p>
+    <div class="grid2">
+      <div class="panel"><h3>Papers per year, by attack type</h3><div class="chartbox"><canvas id="momentum"></canvas></div></div>
+      <div class="panel"><h3>Modern-era share (2022–2026)</h3><div class="chartbox"><canvas id="split"></canvas></div></div>
+    </div>
+  </section>
+
+  <!-- VENUES -->
+  <section>
+    <h2>🏛️ Where the work is published</h2>
+    <p class="lead">Combined across both collections. <b>IEEE T-IFS</b> is the field's center of gravity; vision conferences (CVPR/ICCV/ECCV) and AI conferences (AAAI/NeurIPS/IJCAI/ICLR) carry the rest.</p>
+    <div class="panel"><div class="chartbox" style="height:360px"><canvas id="venues"></canvas></div></div>
+  </section>
+
+  <!-- THEMES -->
+  <section>
+    <h2>🔬 What the papers are actually about</h2>
+    <p class="lead">Frequency of recurring techniques across paper descriptions. One paper can touch several themes.</p>
+    <div class="panel"><div class="chartbox" style="height:340px"><canvas id="themes"></canvas></div></div>
+  </section>
+
+  <!-- INSIGHTS -->
+  <section>
+    <h2>💡 Five trends shaping the field</h2>
+    <div class="insights">
+      <div class="ins">
+        <div class="k">#1 · The defining problem</div>
+        <h4>Generalization eats everything</h4>
+        <p>By far the most common goal: <code>108</code> of ~309 paper notes mention domain generalization or cross-dataset robustness. The benchmark question shifted from "can you detect <i>this</i> attack?" to "can you detect the <i>next</i> one?"</p>
+      </div>
+      <div class="ins">
+        <div class="k">#2 · The architecture turn</div>
+        <h4>From CNNs to vision-language &amp; MLLMs</h4>
+        <p><code>36</code> papers now lean on CLIP, prompts, or multimodal LLMs — from FLIP/CFPL in anti-spoofing to Forensics-Adapter/M2F2-Det in deepfakes. Foundation models are becoming the shared backbone, and they bring <b>interpretability</b> (FaceShield, I-FAS) as a bonus.</p>
+      </div>
+      <div class="ins">
+        <div class="k">#3 · Generative AI, both sides</div>
+        <h4>Diffusion is tool and threat</h4>
+        <p>Diffusion creates harder fakes (DiFF, diffusion-face benchmarks) <i>and</i> augments detectors (DiffFAS, DiffusionFake). The arms race is now generator-vs-detector, with detectors training on synthetic adversaries.</p>
+      </div>
+      <div class="ins">
+        <div class="k">#4 · Convergence</div>
+        <h4>Physical and digital attacks are merging</h4>
+        <p>Historically separate communities are unifying: a single model that catches a printed photo <i>and</i> a deepfake. UniAttackData, MoAE-CR, and the FSFM foundation model signal a <b>unified attack-detection</b> agenda.</p>
+      </div>
+      <div class="ins">
+        <div class="k">#5 · Beyond the still image</div>
+        <h4>Video, audio &amp; lifelong learning rise</h4>
+        <p><code>16</code> audio-visual and <code>11</code> continual/incremental papers reflect two realities: deepfakes are video-and-voice, and forgery types keep evolving — so detectors must learn forever without forgetting.</p>
+      </div>
+      <div class="ins">
+        <div class="k">Methodology</div>
+        <h4>How this list is built</h4>
+        <p>Curated to <b>CCF-A</b> venues (CVPR, ICCV, ECCV, T-PAMI, T-IFS, AAAI, IJCAI, NeurIPS, ICLR, ACM&nbsp;MM), 2022–2026. Every entry is grounded in a verifiable source (proceedings / IEEE-DOI / arXiv) — no auto-generated citations.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>Maintained by <a href="https://github.com/RizhaoCai">Rizhao Cai</a> · Contributions welcome via PR/issue on <a href="https://github.com/RizhaoCai/Awesome-FAS">GitHub</a>.</p>
+    <p class="disclaimer">Counts are derived from the curated Markdown lists and reflect a CCF-A-focused selection, not the entire literature. "Type 1 / Type 2" labels follow industry (FIDO) usage; presentation-attack detection itself is standardized in ISO/IEC&nbsp;30107.</p>
+  </div>
+</footer>
+
+<script>
+const FONT = "#9aa6c4", GRID = "rgba(38,48,79,.6)";
+Chart.defaults.color = FONT;
+Chart.defaults.font.family = "-apple-system,Segoe UI,Roboto,sans-serif";
+
+const years = ["2022","2023","2024","2025","2026*"];
+// Type 1 (FAS, all venues) and Type 2 (deepfake detection) papers per year
+const t1 = [18,17,22,18,5];
+const t2 = [16,19,27,35,16];
+
+new Chart(document.getElementById("momentum"),{
+  type:"bar",
+  data:{labels:years,datasets:[
+    {label:"Type 1 · Anti-Spoofing",data:t1,backgroundColor:"#38bdf8",borderRadius:6},
+    {label:"Type 2 · Deepfake",data:t2,backgroundColor:"#f472b6",borderRadius:6}
+  ]},
+  options:{maintainAspectRatio:false,plugins:{legend:{position:"bottom"}},
+    scales:{x:{grid:{display:false}},y:{grid:{color:GRID},beginAtZero:true}}}
+});
+
+new Chart(document.getElementById("split"),{
+  type:"doughnut",
+  data:{labels:["Type 1 · Anti-Spoofing (80)","Type 2 · Deepfake (113)","Unified (5)"],
+    datasets:[{data:[80,113,5],backgroundColor:["#38bdf8","#f472b6","#a78bfa"],borderColor:"#11182e",borderWidth:3}]},
+  options:{maintainAspectRatio:false,cutout:"58%",plugins:{legend:{position:"bottom"}}}
+});
+
+const venL = ["T-IFS","CVPR","AAAI","ECCV","ICCV","ACM MM","T-PAMI","NeurIPS","IJCAI","ICLR"];
+const venV = [78,46,26,19,16,15,11,11,6,4];
+new Chart(document.getElementById("venues"),{
+  type:"bar",
+  data:{labels:venL,datasets:[{label:"papers",data:venV,
+    backgroundColor:venL.map((_,i)=>`hsl(${205-i*16} 80% ${62-i*1.2}%)`),borderRadius:6}]},
+  options:{indexAxis:"y",maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{x:{grid:{color:GRID},beginAtZero:true},y:{grid:{display:false}}}}
+});
+
+const thL = ["Generalization / cross-domain","Vision-language / CLIP / MLLM","Transformer / ViT","Audio-visual","Frequency / wavelet / Mamba","Continual / incremental","Diffusion","Identity cues","Contrastive learning","rPPG / physiological"];
+const thV = [108,36,22,16,16,11,10,10,9,6];
+new Chart(document.getElementById("themes"),{
+  type:"bar",
+  data:{labels:thL,datasets:[{label:"paper mentions",data:thV,
+    backgroundColor:"#a78bfa",borderRadius:6}]},
+  options:{indexAxis:"y",maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{x:{grid:{color:GRID},beginAtZero:true},y:{grid:{display:false},ticks:{font:{size:11}}}}}
+});
+</script>
+</body>
+</html>

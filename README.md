@@ -1,6 +1,33 @@
-# Awesome Face Authentication Security
+<div align="center">
 
-A curated list of **Face Authentication Security** resources — defending face recognition / authentication systems against attacks. Inspired by [Awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision), [Awesome-adversarial-machine-learning](https://github.com/yenchenlin/awesome-adversarial-machine-learning), [Awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers), [Awesome-NAS](https://github.com/D-X-Y/Awesome-NAS) and [Awesome-Pruning](https://github.com/he-y/Awesome-Pruning).
+# 🔐 Awesome Face Authentication Security
+
+### 🛡️ Defending face recognition against presentation attacks &amp; deepfakes
+
+<p>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <img src="https://img.shields.io/badge/papers-285%2B-blue" alt="papers" />
+  <img src="https://img.shields.io/badge/venues-CCF--A-success" alt="venues" />
+  <img src="https://img.shields.io/badge/coverage-2022--2026-orange" alt="coverage" />
+  <a href="https://github.com/RizhaoCai/Awesome-FAS/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen" alt="PRs welcome" /></a>
+  <a href="https://github.com/RizhaoCai/Awesome-FAS/stargazers"><img src="https://img.shields.io/github/stars/RizhaoCai/Awesome-FAS?style=social" alt="stars" /></a>
+</p>
+
+<h3>
+  <a href="https://rizhaocai.github.io/Awesome-FAS/">🚀 Explore the Insights Dashboard →</a>
+</h3>
+
+<p>
+  <b>📄 <a href="./Face-Anti-Spoofing.md">Type 1 · Anti-Spoofing</a></b> &nbsp;·&nbsp;
+  <b>🎭 <a href="./Deepfake-Detection.md">Type 2 · Deepfake Detection</a></b> &nbsp;·&nbsp;
+  <b>📊 <a href="./Benchmarks/README.md">Benchmarks</a></b>
+</p>
+
+</div>
+
+---
+
+A curated list of **Face Authentication Security** resources — defending face recognition / authentication systems against attacks. The companion **[📈 project page / insights dashboard](https://rizhaocai.github.io/Awesome-FAS/)** visualizes research trends across the list (momentum, venues, themes) rather than just enumerating papers. Inspired by [Awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision), [Awesome-adversarial-machine-learning](https://github.com/yenchenlin/awesome-adversarial-machine-learning), [Awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers), [Awesome-NAS](https://github.com/D-X-Y/Awesome-NAS) and [Awesome-Pruning](https://github.com/he-y/Awesome-Pruning).
 
 Please feel free to open a pull request or issue to add papers.
 
